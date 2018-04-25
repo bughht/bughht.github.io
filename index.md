@@ -1,6 +1,6 @@
 # **Bughht**
 ----
-## Helloworld!
+## Hello Bug!
 
-1. [blog0](/blog0)
-2. [blog1](/blog1)
+1. [Helloworld](/blog0)
+2. [生物知识点](/blog1)
