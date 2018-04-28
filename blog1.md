@@ -501,7 +501,7 @@
 
 物种多样性指数计算：**辛普森指数**
 
-![avatar]（https://gss2.bdstatic.com/-fo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D100/sign=9d2de5d973f0f736dcfe48013a54b382/0bd162d9f2d3572c27964f7a8113632762d0c324.jpg）  
+![](https://gss2.bdstatic.com/-fo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D100/sign=9d2de5d973f0f736dcfe48013a54b382/0bd162d9f2d3572c27964f7a8113632762d0c324.jpg)
 + D：多样性指数
 + N：所有物种的个体总数
 + ni：第i个物种的个体数
@@ -710,6 +710,7 @@
 	+ 合成肝糖原
 	+ 转变为脂肪、氨基酸
 	+ *尿糖*
+
 ## 糖尿病
 + I型糖尿病：胰岛素分泌量绝对不足
 + II型糖尿病：胰岛素抵抗
