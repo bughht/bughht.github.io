@@ -16,7 +16,7 @@ collections:
 
 social:
     - icon: fa-qq
-      link: "1725607268"
+      link: "tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin=1725607268&website=www.oicqzone.com"
     - icon: fa-wechat
       link: "harryhht"
     - icon: fa-github
