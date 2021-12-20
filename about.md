@@ -50,6 +50,7 @@ Major in Biomedical Engineering (GPA:3.76, Rank:9/454)
 
 ## Achievements, Honors and Awards
 | Award Type | Detail | Time |
+
 | ---------- | ------ | ---: |
 
 | **Certificate**                           | *``Applying Machine Learning to Engineering and Science'' online course of MIT* | **December 2021** |
