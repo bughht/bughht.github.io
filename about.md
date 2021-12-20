@@ -6,9 +6,11 @@ permalink: /about/
 
 # Haotian Hong
 **Email:** harryhht@shu.edu.cn
+
 **QQ:** 1725607268
+
 **Wechat:** harryhht
-![](./Personal_Information/head.jpg)
+![](./Personal_Information/head.png)
 
 ## Education
 + Shanghai University:    Sep. 2019 - On Going
