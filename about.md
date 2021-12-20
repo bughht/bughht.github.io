@@ -49,7 +49,8 @@ Major in Biomedical Engineering (GPA:3.76, Rank:9/454)
 + Academic English Writing
 
 ## Achievements, Honors and Awards
-
+| Award Type                                | Detail                                                                          |              Time |
+| ----------------------------------------- | ------------------------------------------------------------------------------- | ----------------: |
 | **Certificate**                           | *``Applying Machine Learning to Engineering and Science'' online course of MIT* | **December 2021** |
 | **Meritorious Mentioned**                 | *2002 Mathematical Contest in Modeling*                                         | **February 2020** |
 | **Honorable Mentioned**                   | *2021 Interdisciplinary Contest in Modeling*                                    | **February 2021** |
