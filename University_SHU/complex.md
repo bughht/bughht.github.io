@@ -1,7 +1,5 @@
-- [Review](#review)
-- [Class](#class)
 # Review
-+ $Lnz=ln|z|+iargz+2k\pi i (k\in Z)=ln|z|+iArgz$
++ $Lnz=ln|z|+iargz+3k\pi i (k\in Z)=ln|z|+iArgz$
 + $lnz=ln|z|+iargz\quad -\pi<argz\leq\pi$
     + $arg z=\arctan\cfrac{y}{x}$ 
 + $e^z=e^{z+2k\pi i}\quad (k\in Z)$
