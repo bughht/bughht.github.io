@@ -3,8 +3,8 @@ description: My Personal Blog
 author: Haotian Hong 
 github: https://github.com/bughht
 about: I'm Haotian from Shanghai University, School of Communication & Information Engineering, major in BME. My research interests include Brain-Computer Interface, Medical Image Processing, VR/AR etc.
-disqus_shortname: stackproblems
-google_analytics: UA-XXXXXXXX-Y
+# disqus_shortname: stackproblems
+# google_analytics: UA-XXXXXXXX-Y
 
 enableTags: true
 tagarray: []
@@ -25,10 +25,10 @@ social:
 urls:
     - text: About Me
       url: /about/
-    - text: My Projects
-      url: /projects/
-    - text: XML Feed
-      url: /feed.xml
+    # - text: My Projects
+    #   url: /projects/
+    # - text: XML Feed
+    #   url: /feed.xml
 
 url: "https://bughht.github.io/"
 baseurl: ""
