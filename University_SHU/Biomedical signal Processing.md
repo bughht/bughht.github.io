@@ -104,7 +104,7 @@
     + fractal, chaotic signal
 
     + Classification of signals
-      + Signal 
+      + Signal
         + Deterministic
           + Periodic
             + Sino-soicial
@@ -118,8 +118,6 @@
             + Non-Ergodic
           + Nonstationary
             + Special type
-
-
 
 + Characteristics of Biomedical Signal
   + Weak signal (mv/uV)
@@ -159,7 +157,6 @@
       + Inter-relationships and interactions among physiological system
       + Acquisition interference
       + Lack of Gold Standards
-    
 
 + Fourier Transformation
   + One of the most common analysis techiniques that is used for biological signals isaimed at breaking down the signal into its different spectral (frequency) components
@@ -172,7 +169,7 @@
     $$\int_a^b\Phi_n(t)\Phi_m(t)dt=\begin{cases}
     C,&m=n\\
     0,&m\ne n\\
-    \end{cases}$$ 
+    \end{cases}$$
     on interval [a,b]
   + Inner Product
     + $<f(x),g(x)>=\int_a^bf(x)g(x)dx$
@@ -185,8 +182,26 @@
     | DFT       | Discrete, Periodic    | Discrete, Periodic    |
     + Fourier Transformation
       + $$\int_{-\infty}^\infty S(t)\cdot e^{-2\pi j \omega t}dt$$
-      
-TODO: Convolution, Parseval, Spectrum, Filter
+  + Properties of DFT
+    + Linearity
+        $$DFT[ax(n)+by(n)]=aX(k)+bY(k)$$
+    + Periodical
+        $$x(n)=X(n+N), X(k)=X(k+N)$$
+    + Time Reversal
+        $$DFT[x(N-n)]=X(N-k)$$
+    + Circular Time Shift
+        $$DFT[x((n-l))_N]=X(k)e^{-j\frac{2\pi kl}{N}}$$
+    + Circular Frequency Shift
+        $$DFT[x(n)e^{-j\frac{2\pi nl}{N}}]=X((k-l))_N$$
+    + Complex Conjugate
+        $$DFT[x*(n)]=X*(N-k)$$
+    + Circular Convolution
+        $$DFT[x_1(n)\otimes x_2(n)]=X_1(k)X_2(k)$$
+    + Multiplication
+        $$DFT[x_1(n)x_2(n)]=X_1(k)\otimes X_2(k)$$
+    + Parseval's Theorem
+        $$\sum_{n=0}^{N-1}x(n)x^*(n)=\cfrac{1}{2\pi}\sum_{n=0}^{N-1}X(k)X^*(k)$$
+
 
 + Random/Stochastic Process
   + A Stochastic function of time $X(t,\xi)$.
