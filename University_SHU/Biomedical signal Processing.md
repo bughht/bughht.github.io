@@ -84,6 +84,43 @@
   + Ultrasonic
   + Heart Rate
 
++ Signal
+  + Message, Information, Signal
+  + Classification
+    + Continuous and discrete
+      + Continuous time signal
+      + Discrete time signal (Series)
+    + Analog and digital
+      + Analog: continuous on time and amplitude
+      + Digital: discrete on time and amplitude
+    + Determinate and random
+      + Determinate Signal: $x(t)$ could be expressed in a time function
+        + Periodic signal: $x(t)=x(nT+t)$
+        + Aperiodic
+      + Random Signal: a stochastic signal with whole uncertainty
+        + Stationary Stochastic Signal
+        + Non Stationary Stochastic Signal
+    + Finite energy signal and finite power signal
+    + fractal, chaotic signal
+
+    + Classification of signals
+      + Signal 
+        + Deterministic
+          + Periodic
+            + Sino-soicial
+            + Complex
+          + Nonperiodic
+            + Almost Periodic
+            + Transient
+        + Stochastic
+          + Stationary
+            + Ergodic
+            + Non-Ergodic
+          + Nonstationary
+            + Special type
+
+
+
 + Characteristics of Biomedical Signal
   + Weak signal (mv/uV)
     + Biomedical signal measurement is weak signal measurement
@@ -200,6 +237,7 @@ TODO: Convolution, Parseval, Spectrum, Filter
         0, &\text{otherwise}
     \end{cases}$
     + $R(\tau)=2f_0\cfrac{n_0}{2}\cfrac{\sin(w_0\tau)}{w_0\tau}$
+
 + Correlation
   + Similarity
   + Correlation coefficient: Pearson correlation coeffient 
