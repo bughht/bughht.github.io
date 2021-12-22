@@ -194,13 +194,16 @@
     + Circular Frequency Shift
         $$DFT[x(n)e^{-j\frac{2\pi nl}{N}}]=X((k-l))_N$$
     + Complex Conjugate
-        $$DFT[x*(n)]=X*(N-k)$$
+        $$DFT[x^*(n)]=X^*(N-k)$$
     + Circular Convolution
         $$DFT[x_1(n)\otimes x_2(n)]=X_1(k)X_2(k)$$
     + Multiplication
         $$DFT[x_1(n)x_2(n)]=X_1(k)\otimes X_2(k)$$
     + Parseval's Theorem
         $$\sum_{n=0}^{N-1}x(n)x^*(n)=\cfrac{1}{2\pi}\sum_{n=0}^{N-1}X(k)X^*(k)$$
++ Spectrum Analysis
+  + Magnitude Spectrum: $|X(\omega)|$
+  + Phase Spectrum: $\theta$
 
 
 + Random/Stochastic Process
