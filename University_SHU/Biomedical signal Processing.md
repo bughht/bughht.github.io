@@ -260,6 +260,15 @@
   + Similarity
   + Correlation coefficient: Pearson correlation coeffient 
     + $r(X,y)=\cfrac{Cov(X,Y)}{\sqrt{Var[X]Var[Y]}}$
++ Linearity
+  + $f(ax+by)=af(x)+bf(y)$
++ Nonlinear models
+  + linear models are linear in the parameters which have to be estimated
 + Linear Correlation
   + Synchronism/Similarity/In-phase/Linear Relationship
   + $r_{xy}(m)=\sum_{n=-\infty}^\infty x(n)y(n+m)$
+  + $r_{xy}(m)=x(n)\cdot y(n)$
+  + $r_{xy}(m)=r_{yx}(-m)$
+  + 
+
+  
