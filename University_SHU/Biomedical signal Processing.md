@@ -269,6 +269,6 @@
   + $r_{xy}(m)=\sum_{n=-\infty}^\infty x(n)y(n+m)$
   + $r_{xy}(m)=x(n)\cdot y(n)$
   + $r_{xy}(m)=r_{yx}(-m)$
-  + 
+  + $$
 
   

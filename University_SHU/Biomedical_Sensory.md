@@ -2,6 +2,11 @@
 
 ## TODO: REVIEW FOR PREVIOUS LESSONS
 
++ Sensitivity: $S=\cfrac{\Delta A_o}{\Delta A_i}$
++ Nonlinearity: $\gamma=\cfrac{\Delta max}{\gamma_m}\cdot 100\%$
++ 
+
+
 ## Biosensor
 + Structure
   + Input: Substances
@@ -71,3 +76,6 @@
   + covalent bonding
   + physical encapsulation
 
++ Piezoelectric ceramics
+  + $Q_x=d_{11}F_x$
+  + $Q_y=d_{12}\cfrac{a}{b}F_y=-d_{11}\cfrac{a}{b}F_y$
