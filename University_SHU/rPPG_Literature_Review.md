@@ -2,6 +2,8 @@
 
 ## Skin Reflection model [<sup>1</sup>](#refer-anchor-1)
 
+![rPPG_model](.\rPPG_model.png)
+
 The reflection of each skin pixel in a recorded image sequence can be defined as a time-varying function in RGB channels
 $$\textbf{C}_k(t)=I(t)\cdot(\textbf{v}_s(t)+\textbf{v}_d(t))+\textbf{v}_n(t)$$
 where
