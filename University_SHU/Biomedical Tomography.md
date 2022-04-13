@@ -324,7 +324,7 @@
 + **滤波反投影与卷积反投影重建的联系与区别？**
   + 本质原理一致，修正滤波投影函数的方式不同 
 + **中心切片定理的证明。**
-  + $\begin{aligned}    F(\rho,\beta)&=\iint f(x,y)e^{-2\pi f\rho(x\cos\beta+y\sin\beta)}dxdy\\&=\iiint f(x,y)\delta(x\cos\beta+y\sin\beta-R)e^{-2\pi j\rho R}dxdydR\\&=\int e^{-2\pi j\rho R}dR\iint f(x,y)\delta(x\cos\beta+y\sin\beta-R)dxdy\\&=\int e^{-2\pi j \rho R}g_\theta(R)dR\\&=F_1\{g_\theta(R)\}  \end{aligned}$
+  + $$\begin{aligned}    F(\rho,\beta)&=\iint f(x,y)e^{-2\pi f\rho(x\cos\beta+y\sin\beta)}dxdy\\&=\iiint f(x,y)\delta(x\cos\beta+y\sin\beta-R)e^{-2\pi j\rho R}dxdydR\\&=\int e^{-2\pi j\rho R}dR\iint f(x,y)\delta(x\cos\beta+y\sin\beta-R)dxdy\\&=\int e^{-2\pi j \rho R}g_\theta(R)dR\\&=F_1\{g_\theta(R)\}  \end{aligned}$$
 + **图像空间中的单个致密点，其在sinogram空间中如何表示？**
   + 一条正弦曲线
 + **简述有哪几种核医学仪器，并简述各自成像原理。**
