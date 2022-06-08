@@ -17,7 +17,7 @@ permalink: /about/
 
 |School|Detail Information|Date|Location|
 |--|--|--|--|
-|**Shanghai Unviersity**|*Major in Biomedical Engineering(GPA:3.76, College:8/457, Class:1/31)*|Sep. 2019 - On Going|Shanghai, China|
+|**Shanghai Unviersity**|*Major in Biomedical Engineering</br>(GPA:3.76, College:8/457, Class:1/31)*|Sep. 2019 - On Going|Shanghai, China|
 |**Concordia University**|*Funded by CSC and MITACS*|June. 2022 - On going|Montreal, Canada|
 <!-- + **Shanghai University [School of Communication & Information Engineering]** *Major in Biomedical Engineering *    Sep. 2019 - On Going -->
 <!-- + **Concordia University [Research Internship]** *Funded by CSC and MITACS* June -->
@@ -45,7 +45,7 @@ permalink: /about/
 
 ## Relevant CourseWork
 
-|GPA-Score|Course|
+| GPA-Score | Course |
 |----------|--|
 |4.0 - 94|Biomedical Sensor|
 |4.0 - 94|Biomedical Signal Processing|
