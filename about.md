@@ -56,7 +56,7 @@ permalink: /about/
 |--|--|--:|
 | **Certificate**| ''Applying Machine Learning to Engineering and Science'' online course of MIT* | **December 2021** |
 | **Project Leader**|*Innovation Project of University Student (Shanghai)*|**2020-2021**|
-| **Meritorious Mentioned**| *2002 Mathematical Contest in Modeling*  | **February 2020** |
+| **Meritorious Mentioned**| *2020 Mathematical Contest in Modeling*  | **February 2020** |
 | **Honorable Mentioned** | *2021 Interdisciplinary Contest in Modeling* | **February 2021** |
 | **Honorable Mentioned**| *2021 Shanghai Computer Application Competition*  | **February 2021** |
 | **Third-Grade Award**  | *2021 China Software Design Competition*  |     **July 2021** |
