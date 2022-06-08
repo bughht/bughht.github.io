@@ -14,6 +14,7 @@ permalink: /about/
 ![](./Personal_Information/head.png)
 
 ## Education
+
 |School|Detail Information|Date|Location|
 |--|--|--|--|
 |**Shanghai Unviersity**|*Major in Biomedical Engineering <br> (GPA:3.76, College:8/457, Class:1/31)*|Sep. 2019 - On Going| Shanghai, China|
@@ -56,6 +57,7 @@ permalink: /about/
 |4.0 - 90|Academic English Writing|
 
 ## Achievements, Honors and Awards
+
 | Award Type| Detail| Time |
 |--|--|--:|
 | **Certificate**| ''Applying Machine Learning to Engineering and Science'' online course of MIT* | **December 2021** |
@@ -74,6 +76,7 @@ permalink: /about/
 |**Mitacs Global Research Internship Scholarship**|*CSC and MITACS*|June 2022|
 
 ## Research & Project Experience
+
 ### [Real time Heart Rate Measurement with rPPG](https://github.com/bughht/Realtime-rPPG-Application)
 + Applying rPPG algorithm (CHROM, PBV) to facial video and obtaining real-time heart rate of human being.
 ### [Chest CT Segmentation & Visualization System](https://github.com/bughht/Chest-CT-Visualization-Segmentation-App)
