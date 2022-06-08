@@ -14,8 +14,12 @@ permalink: /about/
 ![](./Personal_Information/head.png)
 
 ## Education
-+ Shanghai University:    Sep. 2019 - On Going
-Major in Biomedical Engineering (GPA:3.76, Rank:9/454)
+|School|Detail Information|Date|Location|
+|--|--|--|--|
+|**Shanghai Unviersity**|*Major in Biomedical Engineering <br> (GPA:3.76, College:8/457, Class:1/31)*|Sep. 2019 - On Going| Shanghai, China|
+|**Concordia University**|*Funded by CSC and MITACS*|June. 2022 - On going| Montreal, Canada|
+<!-- + **Shanghai University [School of Communication & Information Engineering]** *Major in Biomedical Engineering *    Sep. 2019 - On Going -->
+<!-- + **Concordia University [Research Internship]** *Funded by CSC and MITACS* June -->
 
 ## Technical Skills
 
@@ -40,18 +44,22 @@ Major in Biomedical Engineering (GPA:3.76, Rank:9/454)
 
 ## Relevant CourseWork
 
-+ Medical Instrument
-+ Object-Oriented Programming
-+ Signal and System
-+ Data Structure
-+ Digital Image Processing
-+ Numerical Optimization in Julia
-+ Academic English Writing
+|GPA-Score|Course|
+|--|--|
+|4.0 - 94|Biomedical Sensor|
+|4.0 - 94|Biomedical Signal Processing|
+|4.0 - 95|Data Structure and Algorithm|
+|4.0 - 96|Object-Oriented Programming|
+|4.0 - 95|Numerical Optimization in Julia|
+|4.0 - A|Education of Engineering|
+|4.0 - 97|Analog Circuit Design|
+|4.0 - 90|Academic English Writing|
 
 ## Achievements, Honors and Awards
 | Award Type                                | Detail                                                                          |              Time |
 | ----------------------------------------- | ------------------------------------------------------------------------------- | ----------------: |
-| **Certificate**                           | *``Applying Machine Learning to Engineering and Science'' online course of MIT* | **December 2021** |
+| **Certificate**| *``Applying Machine Learning to Engineering and Science'' online course of MIT* | **December 2021** |
+| **Project Leader**|*Innovation Project of University Student (Shanghai)*|**2020-2021**|
 | **Meritorious Mentioned**                 | *2002 Mathematical Contest in Modeling*                                         | **February 2020** |
 | **Honorable Mentioned**                   | *2021 Interdisciplinary Contest in Modeling*                                    | **February 2021** |
 | **Honorable Mentioned**                   | *2021 Shanghai Computer Application Competition*                                | **February 2021** |
@@ -63,55 +71,32 @@ Major in Biomedical Engineering (GPA:3.76, Rank:9/454)
 | **Scholarship of Science and technology** | *Scholarship of Shanghai University*                                            |     **2020/2021** |
 | **Scholarship of Overseas Exchange**      | *Scholarship of Shanghai University*                                            |          **2021** |
 | **Scholarship of Public Spirit**          | *Scholar of Shanghai University*                                                |          **2021** |
+|**Mitacs Global Research Internship Scholarship**|*CSC and MITACS*|June 2022| 
 
-## Project
-#### Human-Computer Chitchat System based on GPT-2  
-
-+ *Deep Learning, DSP, Python*
-+ *Autumn 2021*
-+ A chitchat system using GPT-2 model for generating chat content.
-+ Voice IO and denoise included. Voice output uses ESPNet2 model.
-+ GPT-2 model was fine-turned using personal Wechat history data.
-
-#### NLP-based Keyboard \& Mouse Automation System
-
-+ *Machine Learning, NLP, Python*
-+ *Winter 2020*
-+ A system using Speech Recognition and BOW model that controls keyboard actions and mouse movement just by voice.
-+ Keywords extracted from user speech sentences were processed by Bag-OF-Words Model, then encode into basic movements of mouse and keyboard keys.
-+ The UI interface was developed by Tkinter. hotkey, movements data load/save are supported.
-
-#### 3D data Visualization Software
-
-+ *C++, QT5, OpenGL*
-+ *Autumn 2020*
-+ Designed a a Qt-based Software for 3D data visualization, especially for medical data.
-+ 3D mesh / point cloud/ Voxel data are supported. Voxel data are rendered using the Marching Cube algorithm.
-+ The Voxel rendering is now transplanting into AR device using Unity.
-
-#### Musical Instrument Classification Application
-
-+ *MATLAB, Deep Learning*
-+ *Spring 2021*
+## Research & Project Experience
+### [Real time Heart Rate Measurement with rPPG](https://github.com/bughht/Realtime-rPPG-Application)
++ Applying rPPG algorithm (CHROM, PBV) to facial video and obtaining real-time heart rate of human being.
+### [Chest CT Segmentation & Visualization System](https://github.com/bughht/Chest-CT-Visualization-Segmentation-App)
++ Chest CT segmentation using threshold and U-Net methods, visualization with voxel rendering and grey-level mapping.
+### [Automatic Delivery UAV System](https://github.com/bughht/Control-System-for-UAV)
++ Designing an auto-control delivery UAV from scratch, with Laser Radar, Depth Camera for positioning and 3D printed
+structure for delivery. Image/Signal processing and route planning are done in the attached Raspberry Pi.
+### Human-Computer Chitchat System based on GPT-2
++ A chitchat system using fine-tuned GPT-2 model for generating chat content and ESPNet2 model for voice generation.
+### [SHU Navigation System](https://github.com/bughht/SHU-Navigation-System)
++ Navigation system for Shanghai University based on Open Street Map data and Dijkstra Algorithm.
+### [Spectral Distortion Analyzer Device](https://github.com/bughht/GCJY)
++ An STM32 based embedded system that shows the spectrum of the signal input and its spectral distortion on the LCD.
+### [Musical Instrument Classification](https://github.com/bughht/Musical-Instrument-Classification)
 + A 5-layer ANN model for musical instrument was trained based on MFCC feature of Instruments’ audio dataset.
-+ The model was then applied in the software for realtime music instrument classification.
-+ Power spectrum and MFCC feature of the music were visualized.
-
-#### Electrical Muscle Stimulation (EMS) System
-
-+ *Analog Circuit Design, Arduino*
-+ *Spring 2021*
-+ Developed a system that generates bidirectional pulse wave using H-bridge controled by pwm from ESP32.
-+ The design was then applied in a cooperation project to evaluate its effect on recovery from exercise fatigue in mice.
-
-#### Head-mounted Night Vision Face Detection System
-
-+ *Raspberry Pi, OpenCV, Multithreading*
-+ *Spring 2021*
-+ A Night Vision System using infrared leds to fill light at night.
-+ Frames are captured, processed and displayed in two individual threads.
-+ Face detection is developed with OpenCV.
-+ The output frame were finally shown in head mounted screen, though which we could see augmented reality like world.
-
-## Publications
-Not yet...
+### Electrical Muscle Stimulation (EMS) System
++ A system that generates bidirectional pulse wave by using H-bridge and ESP32 for muscle stimulation.
+### NLP-based Keyboard & Mouse Automation System
++ A system using Speech Recognition and BOW model that controls keyboard actions and mouse movement just by voice.
+### [3D Data Visualization Software](https://github.com/bughht/3D-Data-Visualizer)
++ A Qt-based Software for 3D data visualization, including mesh, point cloud and voxel
+### Head-mounted Night Vision Face Detection System
++ A Night Vision System applying YOLOv5 and image enhancement to Augmented reality.
+### Mathematical Modeling for North Atlantic Fish Migration
++ Designing two models to predicted the migration of Scottish herring and mackerel to provide some suggestions to the
+small enterprises living on the fishing industry according to the simulatio
