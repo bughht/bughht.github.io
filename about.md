@@ -56,22 +56,22 @@ permalink: /about/
 |4.0 - 90|Academic English Writing|
 
 ## Achievements, Honors and Awards
-| Award Type                                | Detail                                                                          |              Time |
-|--|--|--|
-| **Certificate**| *''Applying Machine Learning to Engineering and Science'' online course of MIT* | **December 2021** |
+| Award Type| Detail| Time |
+|--|--|--:|
+| **Certificate**| ''Applying Machine Learning to Engineering and Science'' online course of MIT* | **December 2021** |
 | **Project Leader**|*Innovation Project of University Student (Shanghai)*|**2020-2021**|
-| **Meritorious Mentioned**                 | *2002 Mathematical Contest in Modeling*                                         | **February 2020** |
-| **Honorable Mentioned**                   | *2021 Interdisciplinary Contest in Modeling*                                    | **February 2021** |
-| **Honorable Mentioned**                   | *2021 Shanghai Computer Application Competition*                                | **February 2021** |
-| **Third-Grade Award**                     | *2021 China Software Design Competition*                                        |     **July 2021** |
-| **Honorable Mentioned**                   | *Academic Forum of Shanghai Universit*                                          |  **January 2021** |
-| **Excelllent Certificate**                | *Shanghai College Computer Rank Examination Second Level*                       | **December 2019** |
-| **Successful Participant**                | *2020 Shanghai-Huawei Quantum Computation Hackathon*                            |     **June 2020** |
-| **First Prize Scholarship**               | *Scholarship of Shanghai University*                                            |     **2020/2021** |
-| **Scholarship of Science and technology** | *Scholarship of Shanghai University*                                            |     **2020/2021** |
-| **Scholarship of Overseas Exchange**      | *Scholarship of Shanghai University*                                            |          **2021** |
-| **Scholarship of Public Spirit**          | *Scholar of Shanghai University*                                                |          **2021** |
-|**Mitacs Global Research Internship Scholarship**|*CSC and MITACS*|June 2022| 
+| **Meritorious Mentioned**| *2002 Mathematical Contest in Modeling*  | **February 2020** |
+| **Honorable Mentioned** | *2021 Interdisciplinary Contest in Modeling* | **February 2021** |
+| **Honorable Mentioned**| *2021 Shanghai Computer Application Competition*  | **February 2021** |
+| **Third-Grade Award**  | *2021 China Software Design Competition*  |     **July 2021** |
+| **Honorable Mentioned** | *Academic Forum of Shanghai Universit*  |  **January 2021** |
+| **Excelllent Certificate** | *Shanghai College Computer Rank Examination Second Level* | **December 2019** |
+| **Successful Participant** | *2020 Shanghai-Huawei Quantum Computation Hackathon* | **June 2020** |
+| **First Prize Scholarship** | *Scholarship of Shanghai University* | **2020/2021** |
+| **Scholarship of Science and technology** | *Scholarship of Shanghai University* | **2020/2021** |
+| **Scholarship of Overseas Exchange** | *Scholarship of Shanghai University*  |**2021** |
+| **Scholarship of Public Spirit** | *Scholar of Shanghai University* |  **2021** |
+|**Mitacs Global Research Internship Scholarship**|*CSC and MITACS*|June 2022|
 
 ## Research & Project Experience
 ### [Real time Heart Rate Measurement with rPPG](https://github.com/bughht/Realtime-rPPG-Application)
