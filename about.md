@@ -25,11 +25,7 @@ permalink: /about/
 + **Programming:** Python, C/C++, MATLAB, Julia
 + **Developer Tools:** VS Code, Anaconda, Unity, QT
 + **Operating System:** Windows 11, Linux(Ubuntu)
-+ **Desktop App Development:** QT, UWP, Unity, Tkinter
-+ **Data Analysis/Processing/Visualization:** numpy, scipy, pandas, matplotlib, plotly, OpenGL
-+ **Machine Learning:** numerical optimization, knn, svm, decision tree, random forest, ...
-+ **Deep Learning:** CNN, RNN, Transformer, GAN, ...
-+ **VR/AR App Development:** Unity, Sterokit(OpenXR)
++ **Machine Learning Algorithm:** numerical optimization, knn, svm, decision tree, random forest, ...
 + **Embedded Engineering:** STM32, ESP32, Raspberry Pi, Arduino
 + **3D Model Design:** AutoCAD, Fusion360
 
