@@ -35,7 +35,7 @@ baseurl: ""
 paginate: 20
 per_page: 20
 paginate_path: "/page/:num/"
-markdown: kramdown
+# markdown: 
 gems:
   - jekyll-paginate
   - jekyll-gist
