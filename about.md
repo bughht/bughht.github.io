@@ -57,8 +57,8 @@ permalink: /about/
 
 ## Achievements, Honors and Awards
 | Award Type                                | Detail                                                                          |              Time |
-| ----------------------------------------- | ------------------------------------------------------------------------------- | ----------------: |
-| **Certificate**| *``Applying Machine Learning to Engineering and Science'' online course of MIT* | **December 2021** |
+|--|--|--|
+| **Certificate**| *''Applying Machine Learning to Engineering and Science'' online course of MIT* | **December 2021** |
 | **Project Leader**|*Innovation Project of University Student (Shanghai)*|**2020-2021**|
 | **Meritorious Mentioned**                 | *2002 Mathematical Contest in Modeling*                                         | **February 2020** |
 | **Honorable Mentioned**                   | *2021 Interdisciplinary Contest in Modeling*                                    | **February 2021** |
