@@ -72,28 +72,27 @@ permalink: /about/
 ## Research & Project Experience
 
 ### [Real time Heart Rate Measurement with rPPG](https://github.com/bughht/Realtime-rPPG-Application)
-+ Applying rPPG algorithm (CHROM, PBV) to facial video and obtaining real-time heart rate of human being.
+Applying rPPG algorithm (CHROM, PBV) to facial video and obtaining real-time heart rate of human being.
 ### [Chest CT Segmentation & Visualization System](https://github.com/bughht/Chest-CT-Visualization-Segmentation-App)
-+ Chest CT segmentation using threshold and U-Net methods, visualization with voxel rendering and grey-level mapping.
+Chest CT segmentation using threshold and U-Net methods, visualization with voxel rendering and grey-level mapping.
 ### [Automatic Delivery UAV System](https://github.com/bughht/Control-System-for-UAV)
-+ Designing an auto-control delivery UAV from scratch, with Laser Radar, Depth Camera for positioning and 3D printed
+Designing an auto-control delivery UAV from scratch, with Laser Radar, Depth Camera for positioning and 3D printed
 structure for delivery. Image/Signal processing and route planning are done in the attached Raspberry Pi.
 ### Human-Computer Chitchat System based on GPT-2
-+ A chitchat system using fine-tuned GPT-2 model for generating chat content and ESPNet2 model for voice generation.
+A chitchat system using fine-tuned GPT-2 model for generating chat content and ESPNet2 model for voice generation.
 ### [SHU Navigation System](https://github.com/bughht/SHU-Navigation-System)
-+ Navigation system for Shanghai University based on Open Street Map data and Dijkstra Algorithm.
+Navigation system for Shanghai University based on Open Street Map data and Dijkstra Algorithm.
 ### [Spectral Distortion Analyzer Device](https://github.com/bughht/GCJY)
-+ An STM32 based embedded system that shows the spectrum of the signal input and its spectral distortion on the LCD.
+An STM32 based embedded system that shows the spectrum of the signal input and its spectral distortion on the LCD.
 ### [Musical Instrument Classification](https://github.com/bughht/Musical-Instrument-Classification)
-+ A 5-layer ANN model for musical instrument was trained based on MFCC feature of Instruments’ audio dataset.
+A 5-layer ANN model for musical instrument was trained based on MFCC feature of Instruments’ audio dataset.
 ### Electrical Muscle Stimulation (EMS) System
-+ A system that generates bidirectional pulse wave by using H-bridge and ESP32 for muscle stimulation.
+A system that generates bidirectional pulse wave by using H-bridge and ESP32 for muscle stimulation.
 ### NLP-based Keyboard & Mouse Automation System
-+ A system using Speech Recognition and BOW model that controls keyboard actions and mouse movement just by voice.
+A system using Speech Recognition and BOW model that controls keyboard actions and mouse movement just by voice.
 ### [3D Data Visualization Software](https://github.com/bughht/3D-Data-Visualizer)
-+ A Qt-based Software for 3D data visualization, including mesh, point cloud and voxel
+A Qt-based Software for 3D data visualization, including mesh, point cloud and voxel
 ### Head-mounted Night Vision Face Detection System
-+ A Night Vision System applying YOLOv5 and image enhancement to Augmented reality.
+A Night Vision System applying YOLOv5 and image enhancement to Augmented reality.
 ### Mathematical Modeling for North Atlantic Fish Migration
-+ Designing two models to predicted the migration of Scottish herring and mackerel to provide some suggestions to the
-small enterprises living on the fishing industry according to the simulatio
+Designing two models to predicted the migration of Scottish herring and mackerel to provide some suggestions to the small enterprises living on the fishing industry according to the simulatio
