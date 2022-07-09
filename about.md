@@ -54,10 +54,11 @@ permalink: /about/
 
 | Award Type| Detail| Time |
 |--|--|--:|
-| **Certificate**| ''Applying Machine Learning to Engineering and Science'' online course of MIT* | **December 2021** |
+| **Certificate**| *''Applying Machine Learning to Engineering and Science'' online course of MIT* | **December 2021** |
 | **Project Leader**|*Innovation Project of University Student (Shanghai)*|**2020-2021**|
 | **Meritorious Mentioned**| *2020 Mathematical Contest in Modeling*  | **February 2020** |
 | **Honorable Mentioned** | *2021 Interdisciplinary Contest in Modeling* | **February 2021** |
+| **First Prize** | *Shanghai Wireless Algorithm Competition*| **June 2022**|
 | **Honorable Mentioned**| *2021 Shanghai Computer Application Competition*  | **February 2021** |
 | **Third-Grade Award**  | *2021 China Software Design Competition*  |     **July 2021** |
 | **Honorable Mentioned** | *Academic Forum of Shanghai Universit*  |  **January 2021** |
@@ -67,7 +68,7 @@ permalink: /about/
 | **Scholarship of Science and technology** | *Scholarship of Shanghai University* | **2020/2021** |
 | **Scholarship of Overseas Exchange** | *Scholarship of Shanghai University*  |**2021** |
 | **Scholarship of Public Spirit** | *Scholar of Shanghai University* |  **2021** |
-|**Mitacs Global Research Internship Scholarship**|*CSC and MITACS*|June 2022|
+|**Mitacs Global Research Internship Scholarship**|*CSC and MITACS*|**June 2022**|
 
 ## Research & Project Experience
 
