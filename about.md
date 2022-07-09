@@ -23,8 +23,7 @@ permalink: /about/
 ## Technical Skills
 
 + **Programming:** Python, C/C++, MATLAB, Julia
-+ **Developer Tools:** VS Code, Anaconda, Unity, QT
-+ **Operating System:** Windows 11, Linux(Ubuntu)
++ **Developer Tools:** VS Code, Anaconda, Unity, QT, MDK
 + **Machine Learning Algorithm:** numerical optimization, knn, svm, decision tree, random forest, ...
 + **Embedded Engineering:** STM32, ESP32, Raspberry Pi, Arduino
 + **3D Model Design:** AutoCAD, Fusion360
