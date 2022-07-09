@@ -16,7 +16,7 @@ permalink: /about/
 ## Education
 
 + **Shanghai Unviersity**  *Sep. 2019 - On Going* **Shanghai, China** *Major in Biomedical Engineering(GPA:3.76, College:8/457, Class:1/31)*
-+ **Concordia University** *June. 2022 - On going* **Montreal, Canada** *Funded by CSC and MITACS*
++ **Concordia University** *Jun. 2022 - On going* **Montreal, Canada** *Funded by CSC and MITACS*
 <!-- + **Shanghai University [School of Communication & Information Engineering]** *Major in Biomedical Engineering *    Sep. 2019 - On Going -->
 <!-- + **Concordia University [Research Internship]** *Funded by CSC and MITACS* June -->
 
