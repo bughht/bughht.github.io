@@ -27,9 +27,9 @@ permalink: /about/
 ## Technical Skills
 
 + **Programming:** Python, C/C++, MATLAB, Julia
-+ **Developer Tools:** VS Code, Anaconda, Unity, QT, MDK
-+ **Machine Learning Algorithm:** numerical optimization, knn, svm, decision tree, random forest, ...
-+ **Embedded Engineering:** STM32, ESP32, Raspberry Pi, Arduino
++ **Developer Tools:** VS Code, Vim, Unity, QT, MDK
++ **Machine Learning Algorithm:** basic numerical optimization, knn, svm, decision tree, random forest, ...
++ **Embedded Engineering:** STM32, ESP32, Raspberry Pi, Arduino, ROS1/2
 + **3D Model Design:** AutoCAD, Fusion360
 
 ## Research Interest
@@ -40,7 +40,7 @@ permalink: /about/
 + Application of AI
 + Wearable Device Development
 
-## Relevant CourseWork
+<!-- ## Relevant CourseWork
 
 | GPA-Score | Course |
 |----------|--|
@@ -51,7 +51,7 @@ permalink: /about/
 |4.0 - 95|Numerical Optimization in Julia|
 |4.0 - A|Education of Engineering|
 |4.0 - 97|Analog Circuit Design|
-|4.0 - 90|Academic English Writing|
+|4.0 - 90|Academic English Writing| -->
 
 ## Achievements, Honors and Awards
 
@@ -67,10 +67,12 @@ permalink: /about/
 | **Honorable Mentioned** | *Academic Forum of Shanghai Universit*  |  **January 2021** |
 | **Excelllent Certificate** | *Shanghai College Computer Rank Examination Second Level* | **December 2019** |
 | **Successful Participant** | *2020 Shanghai-Huawei Quantum Computation Hackathon* | **June 2020** |
+| **National Scholarship**| *National(China) Scholarship* | **2022**|
 | **First Prize Scholarship** | *Scholarship of Shanghai University* | **2020/2021** |
 | **Scholarship of Science and technology** | *Scholarship of Shanghai University* | **2020/2021** |
 | **Scholarship of Overseas Exchange** | *Scholarship of Shanghai University*  |**2021** |
-| **Scholarship of Public Spirit** | *Scholar of Shanghai University* |  **2021** |
+| **Scholarship of Public Spirit** | *Scholarship of Shanghai University* |  **2021** |
+| **Huawei Smart Base Scholarsihp**| *Scholarship of SCIE, Shanghai University* | **2022**|
 |**Mitacs Global Research Internship Scholarship**|*CSC and MITACS*|**June 2022**|
 
 ## Research & Project Experience
