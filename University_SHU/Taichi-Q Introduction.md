@@ -154,15 +154,15 @@ $|0\rangle$和$|1\rangle$系数颠倒
 
 from ProjectQ
 
-![ProjectQ](img/projectq.png)
+![ProjectQ](University_SHU/img/projectq.png)
 
 from Qiskit
 
-![Qiskit](img/qiskit.png)
+![Qiskit](University_SHU/img/qiskit.png)
 
 from taichi-q
 
-![taichi-q](img/taichi_q.gif)
+![taichi-q](University_SHU/img/taichi_q.gif)
 
 #### 量子算法：(代码要写不完辣，我直接搬辣)
 
