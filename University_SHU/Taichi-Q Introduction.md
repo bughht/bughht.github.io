@@ -179,10 +179,9 @@ from taichi-q
   + [x] Quantum Gates
   + [x] Measure
 + [x] Quantum Simulation Engine
-+ [ ] Visualization
-  + [ ] Single Qubit Bloch Sphere
++ [x] Visualization
   + [x] Quantum Circuit
-  + [ ] Result
+  + [x] Result
 + [ ] Implement some Quantum Algorithms (Shor, Grover, etc.)
   + [x] Teleporting
   + [ ] Grover
