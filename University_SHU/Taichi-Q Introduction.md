@@ -185,3 +185,4 @@ from taichi-q
 + [ ] Implement some Quantum Algorithms (Shor, Grover, etc.)
   + [x] Teleporting
   + [ ] Grover
++ [ ] Publish the Taichi-Q Package
