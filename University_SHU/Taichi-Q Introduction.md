@@ -182,7 +182,7 @@ from taichi-q
 + [x] Visualization
   + [x] Quantum Circuit
   + [x] Result
-+ [ ] Implement some Quantum Algorithms (Shor, Grover, etc.)
-  + [x] Teleporting
-  + [ ] Grover
-+ [ ] Publish the Taichi-Q Package
++ [x] Implement some Quantum Algorithms (Grover, etc.)
+  + [x] Teleportation
+  + [x] Grover
++ [x] Publish the Taichi-Q Package
