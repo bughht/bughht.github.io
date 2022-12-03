@@ -35,7 +35,7 @@ Qubit在测量（measure/observe）后会坍缩为0或1，失去原有的qubit�
 
 忽略后$|\psi\rangle=\cos\frac{\theta}{2}|0\rangle+e^{i\phi}\sin\frac{\theta}{2}|1\rangle$，可以将qubit映射到一个bloch sphere上。
 
-![Bloch Sphere](img/bloch.png)
+![Bloch Sphere](University_SHU\img\bloch.png)
 
 不过Bloch Sphere仅能用于描述单量子比特，无法描述muti-qubits的情况。对于多量子比特，qubit中形成纠缠的情况更为复杂，比如当手头有两个量子比特的时候，可以用$|00\rangle |01\rangle |10\rangle |11\rangle$ 描述。
 $|\psi\rangle=\alpha_{00}|00\rangle+\alpha_{01}|01\rangle+\alpha_{10}|10\rangle+\alpha_{11}|11\rangle$
