@@ -16,13 +16,11 @@ tags: [aboutme]
 
 ## Education
 
-+ **Shanghai Unviersity**  *Sep. 2019 - On Going* **Shanghai, China**
-  + Major in Biomedical Engineering
-  + *GPA:3.76, College:8/457, Class:1/31*
-+ **Concordia University** *Jun. 2022 - Aug. 2022* **Montreal, Canada**
-  + Research Internship
-  + *Fully funded by CSC and MITACS*
-+ **ShanghaiTech University** *Dec. 2022 - On Going* **Shanghai, China**
++ **Shanghai Unviersity**  *Sep. 2019 - On Going*
+  + GPA: 3.79, College: 8/457 (1.8%), Class:1/31 (3.2%)
++ **Concordia University** *Jun. 2022 - Aug. 2022*
+  + Fully funded by CSC and MITACS
++ **ShanghaiTech University** *Dec. 2022 - On Going*
   + Visiting Student
 <!-- + **Shanghai University [School of Communication & Information Engineering]** *Major in Biomedical Engineering *    Sep. 2019 - On Going -->
 <!-- + **Concordia University [Research Internship]** *Funded by CSC and MITACS* June -->
