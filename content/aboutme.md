@@ -95,7 +95,9 @@ tags: [aboutme]
 
 ### [Taichi-Q](https://github.com/bughht/Taichi-Q)
 
-A Quantum Computation Simulation Framework based on Taichi
+A Quantum Computation Simulation Framework based on Taichi.
+
+It was originally a competition project. Won the 2nd prize of Taichi Hackathon
 
 ![taichi-q](/aboutme_proj/taichi_q.gif)
 
