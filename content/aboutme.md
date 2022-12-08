@@ -2,13 +2,16 @@
 title: "About me"
 date: 2018-05-07T15:09:46+08:00
 draft: false
-author: Harryhht 
+author: Bughht 
 tags: [aboutme]
 ---
 
 # Haotian Hong
 
-## Me
+## ~~me?~~
+![doge](/img/Doge_small.jpg)
+
+## That's me
 ![Me](/img/me.jpg)
 
 ## Education
@@ -58,6 +61,7 @@ tags: [aboutme]
 | Award Type                 | Competiton                                           |              Time |
 | -------------------------- | ---------------------------------------------------- | ----------------: |
 | **Second Prize**           | *Taichi Hackathon*                                   | **December 2022** |
+| **First Prize**            | *National Undergraduate Electronic Design Contest*   |  **October 2022** |
 | **Third-Grade Award**      | *2021 China Software Design Competition*             |     **July 2021** |
 | **First Prize**            | *Shanghai Wireless Algorithm Competition*            |     **June 2022** |
 | **Honorable Mentioned**    | *2021 Interdisciplinary Contest in Modeling*         | **February 2021** |
@@ -70,16 +74,16 @@ tags: [aboutme]
 | **Certificate**                        | *Shanghai College Computer Rank Examination Second Level*                       | **December 2019** |
 | **Project Leader**                                | *Innovation Project of University Student (Shanghai)*                           |     **2020-2021** | -->
 
-| Scholarship                                       | Type                                       |          Year |
-| :------------------------------------------------ | ------------------------------------------ | ------------: |
-| **National Scholarship**                          | *National(China) Scholarship*              |      **2022** |
-| **Special Prize Scholarship**                     | *Scholarship of Shanghai University*       |      **2022** |
-| **First Prize Scholarship**                       | *Scholarship of Shanghai University*       | **2020&2021** |
-| **Scholarship of Science and technology**         | *Scholarship of Shanghai University*       | **2020&2021** |
-| **Scholarship of Overseas Exchange**              | *Scholarship of Shanghai University*       |      **2021** |
-| **Scholarship of Public Spirit**                  | *Scholarship of Shanghai University*       |      **2021** |
-| **Huawei Smart Base Scholarsihp**                 | *Scholarship of SCIE, Shanghai University* |      **2022** |
-| **Mitacs Global Research Internship Scholarship** | *Scholarship from CSC and MITACS*          |      **2022** |
+| Scholarship                                       | Type                                 |          Year |
+| :------------------------------------------------ | ------------------------------------ | ------------: |
+| **National Scholarship**                          | *China National Scholarship*         |      **2022** |
+| **Special Prize Scholarship**                     | *Scholarship of Shanghai University* |      **2022** |
+| **First Prize Scholarship**                       | *Scholarship of Shanghai University* | **2020&2021** |
+| **Scholarship of Science and technology**         | *Scholarship of Shanghai University* | **2020&2021** |
+| **Scholarship of Overseas Exchange**              | *Scholarship of Shanghai University* |      **2021** |
+| **Scholarship of Public Spirit**                  | *Scholarship of Shanghai University* |      **2021** |
+| **Huawei Smart Base Scholarsihp**                 | *Scholarship of SCIE*                |      **2022** |
+| **Mitacs Global Research Internship Scholarship** | *Scholarship of CSC and MITACS*      |      **2022** |
 
 ## Publications
 
@@ -100,6 +104,12 @@ A Quantum Computation Simulation Framework based on Taichi.
 It was originally a competition project. Won the 2nd prize of Taichi Hackathon
 
 ![taichi-q](/aboutme_proj/taichi_q.gif)
+
+### [Amazon Deepracer Simulation based on ROS and Gazebo](https://github.com/bughht/Amazon_Deepracer_Simulation)
+
+Opensource auto-control deepracer simulation car.
+
+![deepracer](/aboutme_proj/deepracer.jpg)
 
 ### [Real time Heart Rate Measurement with rPPG](https://github.com/bughht/Realtime-rPPG-Application)
 
