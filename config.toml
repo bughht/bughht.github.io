@@ -1,0 +1,451 @@
+title = "Bughht Blog"
+baseURL = "https://bughht.github.io/"
+# 设置默认的语言 ["en", "zh-cn", "fr", "pl", ...]
+defaultContentLanguage = "zh-cn"
+# 网站语言, 仅在这里 CN 大写 ["en", "zh-CN", "fr", "pl", ...]
+languageCode = "zh-CN"
+# 是否包括中日韩文字
+hasCJKLanguage = true
+
+# 更改使用 Hugo 构建网站时使用的默认主题
+theme = "FixIt"
+
+[params]
+  # FixIt 主题版本
+  version = "0.2.X"
+  # 网站描述
+  description = "Welcome to Bughht website"
+  # 网站关键词
+  keywords = ["Hugo", "FixIt"]
+  # 网站默认主题样式 ["light", "dark", "auto"]
+  defaultTheme = "auto"
+  # 公共 git 仓库路径，仅在 enableGitInfo 设为 true 时有效
+  gitRepo = "https://github.com/bughht/bughht.github.io"
+  # FixIt 0.1.1 | 新增 哪种哈希函数用来 SRI, 为空时表示不使用 SRI
+  # ["sha256", "sha384", "sha512", "md5"]
+  fingerprint = ""
+  # FixIt 0.2.0 | 新增 日期格式
+  dateFormat = "2006-01-02"
+  # 网站图片，用于 Open Graph 和 Twitter Cards
+  images = "/img/Doge.jpg"
+  # FixIt 0.2.12 | 新增 开启 PWA 支持
+  enablePWA = true
+  # FixIt 0.2.14 | 新增 是否自动显示外链图标
+  externalIcon = true
+  # FixIt 0.2.14 | 新增 默认情况下，FixIt 只会在主页的 HTML 头中注入主题元标记
+  # 您可以将其关闭，但如果您不这样做，我们将不胜感激，因为这是观察 FixIt 受欢迎程度上升的好方法
+  disableThemeInject = false
+
+  [params.search]
+    enable = false
+    # 搜索引擎的类型 ["lunr", "algolia"]
+    type = "algolia"
+    # 文章内容最长索引长度
+    contentLength = 4000
+    # 搜索框的占位提示语
+    placeholder = ""
+    # FixIt 0.2.1 | 新增 最大结果数目
+    maxResultLength = 10
+    # FixIt 0.2.3 | 新增 结果内容片段长度
+    snippetLength = 50
+    # FixIt 0.2.1 | 新增 搜索结果中高亮部分的 HTML 标签
+    highlightTag = "em"
+    # FixIt 0.2.4 | 新增 是否在搜索索引中使用基于 baseURL 的绝对路径
+    absoluteURL = true
+    [params.search.algolia]
+      index = ""
+      appID = ""
+      searchKey = ""
+  
+  # 页面头部导航栏配置
+  [params.header]
+    # FixIt 0.2.13 | 更改 桌面端导航栏模式 ["sticky", "normal", "auto"]
+    desktopMode = "sticky"
+    # FixIt 0.2.13 | 更改 移动端导航栏模式 ["sticky", "normal", "auto"]
+    mobileMode = "auto"
+    # FixIt 0.2.0 | 新增 页面头部导航栏标题配置
+    [params.header.title]
+      # LOGO 的 URL
+      logo = "/img/Doge.jpg"
+      # 标题名称
+      name = "Bughht"
+      # 你可以在名称（允许 HTML 格式）之前添加其他信息，例如图标
+      pre = ""
+      # 你可以在名称（允许 HTML 格式）之后添加其他信息，例如图标
+      post = ""
+      # FixIt 0.2.5 | 新增 是否为标题显示打字机动画
+      typeit = false
+    # FixIt 0.2.12 | 新增 页面头部导航栏副标题配置
+    [params.header.subtitle]
+      # 副标题名称
+      name = "Hello, welcome to Bughht website"
+      # 是否为副标题显示打字机动画
+      typeit = true
+  # 页面底部信息配置
+  [params.footer]
+    enable = false
+    # FixIt 0.2.0 | 新增 FixIt 0.2.17 | 删除 自定义内容（支持 HTML 格式）
+    # custom = ""
+    # FixIt 0.2.0 | 新增 是否显示 Hugo 和主题信息
+    hugo = false
+    # FixIt 0.2.0 | 新增 是否显示版权信息
+    copyright = true
+    # FixIt 0.2.0 | 新增 是否显示作者
+    author = true
+    # 网站创立年份
+    since = 2018
+    # FixIt 0.2.14 | 新增 网站创立时间
+    siteTime = "" # 例："2018-04-20T16:15:22+08:00"
+    # FixIt 0.2.14 | 新增 是否显示网站内容总字数
+    wordCount = true
+    # FixIt 0.2.12 | 新增 公网安备信息，仅在中国使用（支持 HTML 格式）
+    gov = ""
+    # FixIt 0.2.12 | 更改 ICP 备案信息，仅在中国使用（支持 HTML 格式）
+    icp = ""
+    # 许可协议信息（支持 HTML 格式）
+    license = '<a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+  # FixIt 0.2.0 | 新增 Section（所有文章）页面配置
+  [params.section]
+    # section 页面每页显示文章数量
+    paginate = 20
+    # 日期格式（月和日）
+    dateFormat = "01-02"
+    # RSS 文章数目
+    rss = 10
+    # FixIt 0.2.13 | 新增 最近更新文章设置
+    [params.section.recentlyUpdated]
+      enable = true
+      rss = false
+      days = 30
+      maxCount = 10
+  # 主页配置
+  [params.home]
+    # FixIt 0.2.0 | 新增 RSS 文章数目
+    rss = 10
+    # 主页个人信息
+    [params.home.profile]
+      enable = true
+      # Gravatar 邮箱，用于优先在主页显示的头像
+      gravatarEmail = ""
+      # 主页显示头像的 URL
+      avatarURL = "/img/Doge.jpg"
+      # FixIt 0.2.17 | 新增 头像菜单链接的 identifier
+      avatarMenu = "https://github.com/bughht"
+      # FixIt 0.2.7 | 更改 主页显示的网站标题（支持 HTML 格式）
+      title = "Haotian Hong"
+      # 主页显示的网站副标题
+      subtitle = "Welcome to my website <br> <strong><a href=/aboutme>About me</a></strong>"
+      # 是否为副标题显示打字机动画
+      typeit = true
+      # 是否显示社交账号
+      social = true
+      # FixIt 0.2.0 | 新增 免责声明（支持 HTML 格式）
+      disclaimer = ""
+    # 主页文章列表
+    [params.home.posts]
+      enable = true
+      # 主页每页显示文章数量
+      paginate = 8
+    # FixIt 0.2.16 | 更改 作者的社交信息设置
+  [params.social]
+    GitHub = "bughht"
+    Linkedin = ""
+    Twitter = ""
+    Instagram = ""
+    Facebook = ""
+    Telegram = ""
+    Medium = ""
+    Gitlab = ""
+    Youtubelegacy = ""
+    Youtubecustom = ""
+    Youtubechannel = ""
+    Tumblr = ""
+    Quora = ""
+    Keybase = ""
+    Pinterest = ""
+    Reddit = ""
+    Codepen = ""
+    FreeCodeCamp = ""
+    Bitbucket = ""
+    Stackoverflow = ""
+    Weibo = ""
+    Odnoklassniki = ""
+    VK = ""
+    Flickr = ""
+    Xing = ""
+    Snapchat = ""
+    Soundcloud = ""
+    Spotify = ""
+    Bandcamp = ""
+    Paypal = ""
+    Fivehundredpx = ""
+    Mix = ""
+    Goodreads = ""
+    Lastfm = ""
+    Foursquare = ""
+    Hackernews = ""
+    Kickstarter = ""
+    Patreon = ""
+    Steam = ""
+    Twitch = ""
+    Strava = ""
+    Skype = ""
+    Whatsapp = ""
+    Zhihu = ""
+    Douban = ""
+    Angellist = ""
+    Slidershare = ""
+    Jsfiddle = ""
+    Deviantart = ""
+    Behance = ""
+    Dribbble = ""
+    Wordpress = ""
+    Vine = ""
+    Googlescholar = ""
+    Researchgate = ""
+    Mastodon = ""
+    Thingiverse = ""
+    Devto = ""
+    Gitea = ""
+    XMPP = ""
+    Matrix = ""
+    Bilibili = "34542939"
+    ORCID = ""
+    Liberapay = ""
+    Ko-Fi = ""
+    BuyMeaCoffee = ""
+    Linktree = ""
+    QQ = "1725607268"
+    QQGroup = ""
+    Diaspora = ""
+    CSDN = ""
+    Discord = ""
+    DiscordInvite = ""
+    Lichess = ""
+    Pleroma = ""
+    Kaggle = ""
+    MediaWiki= ""
+    Plume = ""
+    HackTheBox = ""
+    RootMe = ""
+    Feishu = ""
+    TryHackMe = ""
+    Phone = ""
+    Email = "harryhht@shu.edu.cn"
+    RSS = false
+
+  # FixIt 0.2.0 | 更改 文章页面配置
+  [params.page]
+    # FixIt 0.2.0 | 新增 是否在主页隐藏一篇文章
+    hiddenFromHomePage = false
+    # FixIt 0.2.0 | 新增 是否在搜索结果中隐藏一篇文章
+    hiddenFromSearch = false
+    # FixIt 0.2.0 | 新增 是否使用 twemoji
+    twemoji = true
+    # 是否使用 lightgallery
+    lightgallery = true
+    # FixIt 0.2.0 | 新增 是否使用 ruby 扩展语法
+    ruby = true
+    # FixIt 0.2.0 | 新增 是否使用 fraction 扩展语法
+    fraction = true
+    # FixIt 0.2.0 | 新增 是否使用 fontawesome 扩展语法
+    fontawesome = true
+    # 许可协议信息（支持 HTML 格式）
+    license = '<a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+    # 是否在文章页面显示原始 Markdown 文档链接
+    linkToMarkdown = true
+    # FixIt 0.2.4 | 新增 是否在 RSS 中显示全文内容
+    rssFullText = false
+    # FixIt 0.2.13 | 新增 页面样式 ["narrow", "normal", "wide", ...]
+    pageStyle = "narrow"
+    # FixIt 0.2.14 | 新增 强制使用 Gravatar 作为作者头像
+    gravatarForce = false
+    # FixIt 0.2.17 | 更改 开启自动书签支持
+    # 如果为 true，则在关闭页面时保存阅读进度
+    autoBookmark = true
+    # FixIt 0.2.17 | 新增 是否使用 字数统计
+    wordCount = true
+    # FixIt 0.2.17 | 新增 是否使用 预计阅读
+    readingTime = true
+    # FixIt 0.2.17 | 新增 文章结束标志
+    endFlag = ""
+    
+    # FixIt 0.2.15 | 新增 转载配置
+    [params.page.repost]
+      enable = true
+      url = ""
+    # FixIt 0.2.0 | 新增 目录配置
+    [params.page.toc]
+      # 是否使用目录
+      enable = true
+      # FixIt 0.2.9 | 新增 是否保持使用文章前面的静态目录
+      keepStatic = true
+      # 是否使侧边目录自动折叠展开
+      auto = true
+      # FixIt 0.2.13 | 新增 目录位置 ["left", "right"]
+      position = "right"
+    # FixIt 0.2.13 | 新增 在文章开头显示提示信息，提醒读者文章内容可能过时
+    [params.page.expirationReminder]
+      enable = false
+      # 如果文章最后更新于这天数之前，显示提醒
+      reminder = 90
+      # 如果文章最后更新于这天数之前，显示警告
+      warning = 180
+      # 如果文章到期是否关闭评论
+      closeComment = false
+    # FixIt 0.2.0 | 新增 代码配置
+    [params.page.code]
+      # 是否显示代码块的复制按钮
+      copy = true
+      # FixIt 0.2.13 | 新增 是否显示代码块的编辑按钮
+      edit = true
+      # 默认展开显示的代码行数
+      maxShownLines = 20
+    # FixIt 0.2.14 | 新增 文章编辑
+    [params.page.edit]
+      enable = true
+      # FixIt 0.2.15 | 更改 编辑的基础链接
+      # url = "/edit/branch-name/subdirectory-name" # 相对于 `params.gitRepo`
+      # url = "https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name" # 完整链接
+      url = ""
+    # FixIt 0.2.0 | 更改 KaTeX 数学公式 (https://katex.org)
+    [params.page.math]
+      enable = true
+      # 默认行内定界符是 $ ... $ 和 \( ... \)
+      inlineLeftDelimiter = ""
+      inlineRightDelimiter = ""
+      # 默认块定界符是 $$ ... $$, \[ ... \],  \begin{equation} ... \end{equation} 和一些其它的函数
+      blockLeftDelimiter = ""
+      blockRightDelimiter = ""
+      # KaTeX 插件 copy_tex
+      copyTex = true
+      # KaTeX 插件 mhchem
+      mhchem = true
+    # FixIt 0.2.17 | 新增 赞赏设置
+    [params.page.reward]
+      enable = true
+      animation = true
+      # 相对于页脚的位置，可选值：["before", "after"]
+      position = "after"
+      # comment = "Buy me a coffee"
+      [params.page.reward.ways]
+        # wechatpay = "/img/wechatpay.png"
+        # alipay = "/img/alipay.png"
+  # FixIt 0.2.5 | 新增 TypeIt 配置
+  [params.typeit]
+    # 每一步的打字速度（单位是毫秒）
+    speed = 30
+    # 光标的闪烁速度（单位是毫秒）
+    cursorSpeed = 1000
+    # 光标的字符（支持 HTML 格式）
+    cursorChar = "|"
+    # 打字结束之后光标的持续时间（单位是毫秒，"-1" 代表无限大）
+    duration = -1
+
+  [params.githubCorner]
+    enable = true
+    permalink = "https://github.com/bughht/"
+    title = "GitHub for Bughht "
+    position = "right" # ["left", "right"]
+  # FixIt 0.2.16 | 新增 返回顶部
+  [params.backToTop]
+    enable = true
+    # 在 b2t 按钮中显示滚动百分比
+    scrollpercent = true
+  # FixIt 0.2.16 | 新增 阅读进度条
+  [params.readingProgress]
+    enable = true
+    # 可用值：["left", "right"]
+    start = "left"
+    # 可用值：["top", "bottom"]
+    position = "top"
+    reversed = false
+    light = ""
+    dark = ""
+    height = "8px"
+  
+
+
+
+[menu]
+
+  [[menu.main]]
+    identifier = "bachelor"
+    # 你可以在名称（允许 HTML 格式）之前添加其他信息，例如图标
+    pre = ""
+    # 你可以在名称（允许 HTML 格式）之后添加其他信息，例如图标
+    post = ""
+    name = "本科-SHU"
+    url = "/university_shu/"
+    # 当你将鼠标悬停在此菜单链接上时，将显示的标题
+    title = "Universiyt Bachelor SHU"
+    weight = 1
+    # 向菜单项添加用户定义的内容
+    [menu.main.params]
+      # 添加 CSS 类到菜单项
+      class = ""
+      # 是否为草稿菜单，类似草稿页面
+      draft = false
+      # 添加 fontawesome 图标到菜单项
+      icon = "fa-solid fa-archive"
+      # 设置菜单项类型，可选值：["mobile", "desktop"]
+      type = ""
+  [[menu.main]]
+    identifier = "highschool"
+    # 你可以在名称（允许 HTML 格式）之前添加其他信息，例如图标
+    pre = ""
+    # 你可以在名称（允许 HTML 格式）之后添加其他信息，例如图标
+    post = ""
+    name = "高中-SES"
+    url = "/high_school_ses/"
+    # 当你将鼠标悬停在此菜单链接上时，将显示的标题
+    title = "High School SES"
+    weight = 2
+    # 向菜单项添加用户定义的内容
+    [menu.main.params]
+      # 添加 CSS 类到菜单项
+      class = ""
+      # 是否为草稿菜单，类似草稿页面
+      draft = false
+      # 添加 fontawesome 图标到菜单项
+      icon = "fa-solid fa-archive"
+      # 设置菜单项类型，可选值：["mobile", "desktop"]
+      type = ""
+  [[menu.main]]
+    identifier = "categories"
+    pre = ""
+    post = ""
+    name = "分类"
+    url = "/categories/"
+    title = ""
+    weight = 3
+    [menu.main.params]
+      icon = "fa-solid fa-th"
+  [[menu.main]]
+    identifier = "tags"
+    pre = ""
+    post = ""
+    name = "标签"
+    url = "/tags/"
+    title = ""
+    weight = 4
+    [menu.main.params]
+      icon = "fa-solid fa-tags"
+  [[menu.main]]
+    identifier = "AboutMe"
+    pre = ""
+    post = ""
+    name = "About Me"
+    url = "/aboutme"
+    title = ""
+    weight = 1
+    [menu.main.params]
+      icon = "fa-solid fa-info-circle"
+    
+
+# Hugo 解析文档的配置
+[markup]
+  # 语法高亮设置 (https://gohugo.io/content-management/syntax-highlighting)
+  [markup.highlight]
+    # false 是必要的设置 (https://github.com/hugo-fixit/FixIt/issues/43)
+    noClasses = false
