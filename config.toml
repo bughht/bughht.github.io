@@ -257,7 +257,7 @@ theme = "FixIt"
     # FixIt 0.2.4 | 新增 是否在 RSS 中显示全文内容
     rssFullText = false
     # FixIt 0.2.13 | 新增 页面样式 ["narrow", "normal", "wide", ...]
-    pageStyle = "narrow"
+    pageStyle = "normal"
     # FixIt 0.2.14 | 新增 强制使用 Gravatar 作为作者头像
     gravatarForce = false
     # FixIt 0.2.17 | 更改 开启自动书签支持
@@ -279,11 +279,11 @@ theme = "FixIt"
       # 是否使用目录
       enable = true
       # FixIt 0.2.9 | 新增 是否保持使用文章前面的静态目录
-      keepStatic = true
+      keepStatic = false
       # 是否使侧边目录自动折叠展开
-      auto = true
+      auto = false
       # FixIt 0.2.13 | 新增 目录位置 ["left", "right"]
-      position = "right"
+      position = "left"
     # FixIt 0.2.13 | 新增 在文章开头显示提示信息，提醒读者文章内容可能过时
     [params.page.expirationReminder]
       enable = false

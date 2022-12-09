@@ -92,7 +92,7 @@ tags: [aboutme]
 
 + **Effect of laser acupuncture combined with electrical stimulation on recovery from exercise fatigue in mice**
   + Yudan Xia, Zehai Hou, **Haotian Hong**, Na Chen, Taihao Li, Heng Zhang, Shupeng Liu
-  + Accepted by Journal of Innovative Optical Health Sciences
+  + Accepted by Journal of Innovative Optical Health Sciences, ready to publish
 
 ## Research & Project Experiences
 
