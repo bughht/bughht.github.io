@@ -70,49 +70,54 @@ $|\psi\rangle=\cfrac{|00\rangle+|11\rangle}{\sqrt{2}}$
 对于单量子比特，如$|\psi\rangle=\alpha|0\rangle+\beta|1\rangle$，作用X门（非门）效果如下
 
 $\begin{bmatrix}
-  0&1\\
-  1&0\\
-\end{bmatrix}\begin{bmatrix}\alpha\\ \beta\end{bmatrix}=\begin{bmatrix}\beta\\ \alpha\end{bmatrix}$
+  0&1\\\\
+  1&0\\\\
+\end{bmatrix}\begin{bmatrix}
+  \alpha\\\\
+  \beta
+\end{bmatrix}=\begin{bmatrix}
+  \beta\\\\
+  \alpha \end{bmatrix}$
 
 $|0\rangle$和$|1\rangle$系数颠倒
 
 结合Bloch球，我们可以把单量子比特描述为Bloch球在3度空间中的旋转变换
 
 + H门： $H=\frac{1}{\sqrt{2}}\begin{bmatrix}
-  1&1\\
-  1&-1\\
+  1&1\\\\
+  1&-1\\\\
 \end{bmatrix}$
 + X门： $X=\begin{bmatrix}
-  0&1\\
-  1&0\\
+  0&1\\\\
+  1&0\\\\
 \end{bmatrix}$
 + Y门：$Y=\begin{bmatrix}
-  0&-i\\
-  i&0\\
+  0&-i\\\\
+  i&0\\\\
 \end{bmatrix}$
 + Z门：$Z=\begin{bmatrix}
-  1&0\\
-  0&-1\\
+  1&0\\\\
+  0&-1\\\\
 \end{bmatrix}$
 + S门：$S=\begin{bmatrix}
-  1&0\\
-  0&i\\
+  1&0\\\\
+  0&i\\\\
 \end{bmatrix}$
 + T门：$T=\begin{bmatrix}
-  1&0\\
+  1&0\\\\
   0&e^{\frac{\pi}{4}i}
 \end{bmatrix}$
 + $R_x(\theta)$:绕X轴转动$\theta$ $R_x(\theta)=\begin{bmatrix}
-  \cos(\theta/2)&i\sin(\theta/2)\\
-  -i\sin(\theta/2)&\cos(\theta/2)\\
+  \cos(\theta/2)&i\sin(\theta/2)\\\\
+  -i\sin(\theta/2)&\cos(\theta/2)\\\\
 \end{bmatrix}$
 + $R_y(\theta)$:绕Y轴转动$\theta$ $R_y(\theta)=\begin{bmatrix}
-  \cos(\theta/2)&-\sin(\theta/2)\\
-  \sin(\theta/2)&\cos(\theta/2)\\
+  \cos(\theta/2)&-\sin(\theta/2)\\\\
+  \sin(\theta/2)&\cos(\theta/2)\\\\
 \end{bmatrix}$
 + $R_z(\theta)$:绕Z轴转动$\theta$ $R_z(\theta)=\begin{bmatrix}
-  e^{-i\theta/2}&0\\
-  0&e^{i\theta/2}\\
+  e^{-i\theta/2}&0\\\\
+  0&e^{i\theta/2}\\\\
 \end{bmatrix}$
 
 ##### 多量子比特门 muti-qubits gate
@@ -120,30 +125,30 @@ $|0\rangle$和$|1\rangle$系数颠倒
 多量子比特门作用在多个量子比特上，其状态为多个量子比特的张量积(Kronecker product)。(这时候因为维度上去了bloch sphere就无法描述了)
 
 + CNOT门：$CNOT=\begin{bmatrix}
-  1&0&0&0\\
-  0&1&0&0\\
-  0&0&0&1\\
-  0&0&1&0\\
+  1&0&0&0\\\\
+  0&1&0&0\\\\
+  0&0&0&1\\\\
+  0&0&1&0\\\\
 \end{bmatrix}$
   + $|00\rangle \rightarrow |00\rangle$
   + $|01\rangle \rightarrow |01\rangle$
   + $|10\rangle \rightarrow |11\rangle$
   + $|11\rangle \rightarrow |10\rangle$
 + C-U门（U可以为任意量子门）$C(U)=\begin{bmatrix}
-  1&0&0&0\\
-  0&1&0&0\\
-  0&0&U_{00}&U_{01}\\
-  0&0&U_{10}&U_{11}\\
+  1&0&0&0\\\\
+  0&1&0&0\\\\
+  0&0&U_{00}&U_{01}\\\\
+  0&0&U_{10}&U_{11}\\\\
 \end{bmatrix}$
 + CC-NOT门 或者叫 Toffoli Gate (C也可以有若干个) $CCNOT=\begin{bmatrix}
-  1&0&0&0&0&0&0&0\\
-  0&1&0&0&0&0&0&0\\
-  0&0&1&0&0&0&0&0\\
-  0&0&0&1&0&0&0&0\\
-  0&0&0&0&1&0&0&0\\
-  0&0&0&0&0&1&0&0\\
-  0&0&0&0&0&0&0&1\\
-  0&0&0&0&0&0&1&0\\
+  1&0&0&0&0&0&0&0\\\\
+  0&1&0&0&0&0&0&0\\\\
+  0&0&1&0&0&0&0&0\\\\
+  0&0&0&1&0&0&0&0\\\\
+  0&0&0&0&1&0&0&0\\\\
+  0&0&0&0&0&1&0&0\\\\
+  0&0&0&0&0&0&0&1\\\\
+  0&0&0&0&0&0&1&0\\\\
 \end{bmatrix}$
 
 + QFT门 iQFT门：

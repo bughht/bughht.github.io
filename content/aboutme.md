@@ -6,24 +6,24 @@ author: Bughht
 tags: [aboutme]
 ---
 
-# Haotian Hong
+# Haotian Hong ( 洪浩天 / Harry )
 
-## ~~me?~~
 ![doge](/img/Doge_small.jpg)
 
-## That's me
-![Me](/img/me.jpg)
+![Me](/img/me_small.jpg)
 
 ## Education
 
 + **Shanghai Unviersity**  *Sep. 2019 - On Going*
+  + School of Communication and Information Engineering, Biomedical Engineering
   + GPA: 3.79, College: 8/457 (1.8%), Class:1/31 (3.2%)
-+ **Concordia University** *Jun. 2022 - Aug. 2022*
++ **Concordia University**  *Jun. 2022 - Aug. 2022*
+  + I-SIP Lab
+  + Research Internship
   + Fully funded by CSC and MITACS
-+ **ShanghaiTech University** *Dec. 2022 - On Going*
++ **ShanghaiTech University**  *Dec. 2022 - On Going*
+  + School of Biomedical Engineering
   + Visiting Student
-<!-- + **Shanghai University [School of Communication & Information Engineering]** *Major in Biomedical Engineering *    Sep. 2019 - On Going -->
-<!-- + **Concordia University [Research Internship]** *Funded by CSC and MITACS* June -->
 
 ## Technical Skills
 
@@ -56,32 +56,33 @@ tags: [aboutme]
 
 ## Honors
 
-| Award Type                 | Competiton                                           |              Time |
-| -------------------------- | ---------------------------------------------------- | ----------------: |
-| **Second Prize**           | *Taichi Hackathon*                                   | **December 2022** |
-| **First Prize**            | *National Undergraduate Electronic Design Contest*   |  **October 2022** |
-| **Third-Grade Award**      | *2021 China Software Design Competition*             |     **July 2021** |
-| **First Prize**            | *Shanghai Wireless Algorithm Competition*            |     **June 2022** |
-| **Honorable Mentioned**    | *2021 Interdisciplinary Contest in Modeling*         | **February 2021** |
-| **Honorable Mentioned**    | *2021 Shanghai Computer Application Competition*     | **February 2021** |
-| **Honorable Mentioned**    | *Academic Forum of Shanghai Universit*               |  **January 2021** |
-| **Successful Participant** | *2020 Shanghai-Huawei Quantum Computation Hackathon* |     **June 2020** |
-| **Meritorious Mentioned**  | *2020 Mathematical Contest in Modeling*              | **February 2020** |
+| Award Type                 | Competiton                                              |          Time |
+| -------------------------- | ------------------------------------------------------- | ------------: |
+| **Second Prize**           | *2022 Taichi Hackathon*                                 | **Dec. 2022** |
+| **Third Prize**            | *2022 Academic Forum of Shanghai University*            | **Nov. 2022** |
+| **First Prize**            | *2022 National Undergraduate Electronic Design Contest* | **Oct. 2022** |
+| **First Prize**            | *2022 Shanghai Wireless Algorithm Competition*          | **Jun. 2022** |
+| **Third-Grade Award**      | *2021 China Software Design Competition*                | **Jul. 2021** |
+| **Honorable Mentioned**    | *2021 Interdisciplinary Contest in Modeling*            | **Feb. 2021** |
+| **Second Prize**           | *2021 Shanghai Computer Application Competition*        | **Feb. 2021** |
+| **Second Prize**           | *2020 Academic Forum of Shanghai University*            | **Jan. 2021** |
+| **Successful Participant** | *2020 Huawei Quantum Computation Hackathon*             | **Jun. 2020** |
+| **Meritorious Mentioned**  | *2020 Mathematical Contest in Modeling*                 | **Feb. 2020** |
 
 <!-- | **Certificate**                                   | *''Applying Machine Learning to Engineering and Science'' online course of MIT* | **December 2021** |
 | **Certificate**                        | *Shanghai College Computer Rank Examination Second Level*                       | **December 2019** |
 | **Project Leader**                                | *Innovation Project of University Student (Shanghai)*                           |     **2020-2021** | -->
 
-| Scholarship                                       | Type                                 |          Year |
-| :------------------------------------------------ | ------------------------------------ | ------------: |
-| **National Scholarship**                          | *China National Scholarship*         |      **2022** |
-| **Special Prize Scholarship**                     | *Scholarship of Shanghai University* |      **2022** |
-| **First Prize Scholarship**                       | *Scholarship of Shanghai University* | **2020&2021** |
-| **Scholarship of Science and technology**         | *Scholarship of Shanghai University* | **2020&2021** |
-| **Scholarship of Overseas Exchange**              | *Scholarship of Shanghai University* |      **2021** |
-| **Scholarship of Public Spirit**                  | *Scholarship of Shanghai University* |      **2021** |
-| **Huawei Smart Base Scholarsihp**                 | *Scholarship of SCIE*                |      **2022** |
-| **Mitacs Global Research Internship Scholarship** | *Scholarship of CSC and MITACS*      |      **2022** |
+| Scholarship                               | Type                                   |            Year |
+| :---------------------------------------- | -------------------------------------- | --------------: |
+| **National Scholarship**                  | *Scholarship of Ministry of Education* |        **2022** |
+| **Special Prize Scholarship**             | *Scholarship of Shanghai University*   |        **2022** |
+| **First Prize Scholarship**               | *Scholarship of Shanghai University*   | **2020 & 2021** |
+| **Scholarship of Science and technology** | *Scholarship of Shanghai University*   | **2020 & 2021** |
+| **Scholarship of Overseas Exchange**      | *Scholarship of Shanghai University*   |        **2021** |
+| **Scholarship of Public Spirit**          | *Scholarship of Shanghai University*   |        **2021** |
+| **Huawei Smart Base Scholarsihp**         | *Scholarship of SCIE*                  |        **2022** |
+| **Mitacs Scholarship**                    | *Scholarship of CSC and MITACS*        |        **2022** |
 
 ## Publications
 

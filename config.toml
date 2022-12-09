@@ -272,7 +272,7 @@ theme = "FixIt"
     
     # FixIt 0.2.15 | 新增 转载配置
     [params.page.repost]
-      enable = true
+      enable = false
       url = ""
     # FixIt 0.2.0 | 新增 目录配置
     [params.page.toc]

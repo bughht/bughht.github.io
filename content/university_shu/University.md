@@ -14,10 +14,10 @@ categories: [University]
 -->
 # Course Review for University (Shanghai University)
 
-1. [Functions of Complex Variable](/university_shu/complex_html.html)
+1. [Functions of Complex Variable](/university_shu/complex)
 2. [Anatomy and physiology](/university_shu/解剖/)
 3. [Biomedical Signal Processing](/university_shu/biomedical_signal_processing/)
 4. [Biomedical Sensory](/university_shu/biomedical_sensory)
 5. [r-PPG Review](/university_shu/rppg_literature_review)
 6. [Biomedical Tomography](/university_shu/Biomedical_Tomography)
-7. [Taichi-Q: Quantum Computation Simulation Framework based on Taichi](/university_shu/Taichi-Q_Introduction.html)
+7. [Taichi-Q: Quantum Computation Simulation Framework based on Taichi](/university_shu/Taichi-Q_Introduction)

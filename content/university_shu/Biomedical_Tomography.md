@@ -773,7 +773,7 @@ tags: [BME]
   + 空间滤波函数：**CT软件核心机密**
     + **R-L滤波函数**
       + $H_{R-L}(\rho)=|\rho|\text{rect}(\frac{\rho}{2\rho_0})$
-      + $h_{R-L}(nT)=\begin{cases}\frac{1}{4T^2}&n=0\\0&\text{n is even}\\\frac{1}{\pi^2n^2T^2}&\text{n is odd}\end{cases}$
+      + $h_{R-L}(nT)=\begin{cases}\frac{1}{4T^2}&n=0\\\\0&\text{n is even}\\\\\frac{1}{\pi^2n^2T^2}&\text{n is odd}\end{cases}$
       + 优点：重建图像轮廓清晰，空间分辨率高
       + 缺点：振铃效应明显，尤其是物体边缘及吸收系数剧烈变化的地方
     + **S-L滤波函数**
