@@ -31,7 +31,7 @@ The angle $\theta$ between $\overrightarrow{\mu}$ and $\overrightarrow{B_0}$, $\
 
 and $|\overrightarrow{\mu_{xy}}|=\sqrt{\mu^2-\mu_z^2}=\gamma\hbar\sqrt{I(I+1)-m_I^2}$, for a spin-$\frac{1}{2}$ systema, $I=\frac{1}{2}$ and $m_I=\pm\frac{1}{2}$,
 
-$$\theta=\pm 54\degree 44'$$
+$$\theta=\pm 54\degree 44^\prime$$
 
 $$|\overrightarrow{\mu}_{xy}|=\cfrac{\gamma\hbar}{\sqrt{2}}$$
 
@@ -152,8 +152,8 @@ $$\overrightarrow{M} _{rot}\xlongequal{\Delta}M _{x^\prime}\overrightarrow{i}^\p
 transformation rules could be written in matrix and complex notation
 
 $$\begin{bmatrix}
-  B_{1,x'}\\\\
-  B_{1,y'}\\\\
+  B_{1,x^\prime}\\\\
+  B_{1,y^\prime}\\\\
 \end{bmatrix} = \begin{bmatrix}
   \cos\omega t&-\sin\omega t\\\\
   \sin\omega t&\cos\omega t\\\\
@@ -172,11 +172,11 @@ let
 
 $$\cfrac{d\overrightarrow{M}}{dt}\xlongequal{\Delta}\cfrac{dM_x}{dt}\overrightarrow{i}+\cfrac{dM_y}{dt}\overrightarrow{j}+\cfrac{dM_z}{dt}\overrightarrow{k}$$
 
-$$\cfrac{\partial\overrightarrow{M}_{rot}}{\partial t}\xlongequal{\Delta}\cfrac{dM_x'}{dt}\overrightarrow{i'}+\cfrac{dM_y'}{dt}\overrightarrow{j'}+\cfrac{dM_z'}{dt}\overrightarrow{k'}$$
+$$\cfrac{\partial\overrightarrow{M}_{rot}}{\partial t}\xlongequal{\Delta}\cfrac{dM_x^\prime}{dt}\overrightarrow{i}^\prime+\cfrac{dM_y^\prime}{dt}\overrightarrow{j}^\prime+\cfrac{dM_z^\prime}{dt}\overrightarrow{k}^\prime$$
 
 then we yeld two foregoing equations
 
-$$\cfrac{d\overleftarrow{M}}{dt}=\cfrac{\partial \overrightarrow{M}_{rot}}{\partial t}+\overrightarrow{\omega}\times\overrightarrow{M} _{rot}$$
+$$\cfrac{d\overrightarrow{M}}{dt}=\cfrac{\partial \overrightarrow{M}_{rot}}{\partial t}+\overrightarrow{\omega}\times\overrightarrow{M} _{rot}$$
 
 #### Bloch Equation
 
@@ -188,4 +188,89 @@ $$\cfrac{\partial \overrightarrow{M}_{rot}}{\partial t}=\gamma\overrightarrow{M}
 
 so that the general bloch equation could be expressed below
 
-$$\cfrac{\partial\overrightarrow{M}}{\partial t}=\gamma\overrightarrow{M}\times\overrightarrow{B} _{eff}-\cfrac{M_x'\overrightarrow{i'}+M_y'\overrightarrow{j'}}{T_2}-\cfrac{(M_z'-M_z^o)\overrightarrow{k'}}{T_1}$$
+$$\cfrac{\partial\overrightarrow{M}}{\partial t}=\gamma\overrightarrow{M}\times\overrightarrow{B} _{eff}-\cfrac{M_x^\prime\overrightarrow{i^\prime}+M_y^\prime\overrightarrow{j^\prime}}{T_2}-\cfrac{(M_z^\prime-M_z^o)\overrightarrow{k^\prime}}{T_1}$$
+
+where
+
+$$\overrightarrow{B}_{eff}=\overrightarrow{B} _{rot}+\cfrac{\overrightarrow{\omega}}{\gamma}$$
+
+#### On-Resonance Excitations
+
+The effective field that the nuclear spins see in the rotating frame is
+
+$$\begin{aligned}
+  \overrightarrow{B}_{eff}=&B_0\overrightarrow{k}^\prime+B_1^e(t)\overrightarrow{i}^\prime+\cfrac{\overrightarrow{\omega} _{rf}}{\gamma}\\\\
+  =&\bigg(B_0-\cfrac{\omega _{rf}}{\gamma}\bigg)\overrightarrow{k}^\prime+B_1^e(t)\overrightarrow{i}^\prime\\\\
+=&B_1^e(t)\overrightarrow{i}^\prime
+\end{aligned}$$
+
+according to bloch equation,
+
+$$\cfrac{\partial\overrightarrow{M}_{rot}}{\partial t}=\gamma\overrightarrow{M} _{rot}\times B_1^e(t)\overrightarrow{i}^\prime$$
+
+$$\begin{cases}
+  \cfrac{dM _{x^\prime}}{dt}&=&0\\\\
+  \cfrac{dM _{z^\prime}}{dt}&=&\gamma B _1^e(t)M _{z^\prime}\\\\
+  \cfrac{dM _{y^\prime}}{dt}&=&-\gamma B_1^e(t)M _{y^\prime}
+\end{cases}$$
+
+Close-form solution to the partial differential equation, indicates the effect of the on-resonance excitation $\overrightarrow{B}_1$ field,
+
+$$\begin{cases}
+  M_{x^\prime}(t)=0\\\\
+  M_{y^\prime}(t)=M_z^0\sin(\int_0^t\gamma B_1^e(\hat{t})d\hat{t})\\\\
+  M_{z^\prime}(t)=M_z^0\cos(\int_0^t\gamma B_1^e(\hat{t})d\hat{t})\\\\
+\end{cases}\qquad 0\le t\le \tau_p$$
+
+for example giving a square wave $B_1^e=B_1\prod\bigg(\cfrac{t-\tau_p/2}{\tau_p}\bigg)$
+
+the results comes with
+
+$$\begin{cases}
+  M_{x^\prime}(t)=0\\\\
+  M_{y^\prime}(t)=M_z^0\sin(\omega_1t)\\\\
+  M_{z^\prime}(t)=M_z^0\cos(\omega_1t)
+\end{cases}\qquad 0\le t\le \tau_p$$
+
+where $\omega_1=\gamma B_1$, so the bulk magnetization vector rotate around the x-axis on rotation frame which is also the orientation of $\overrightarrow{B}_1$
+
+$$\overrightarrow{\omega}_1=-\gamma\overrightarrow{B}_1$$
+
+The precession of $\overrightarrow{M}$ about the $B_1$ field called **forced precession**
+
+**Flip angle**: the smaller angle between $\overrightarrow{M}$ and z-axis
+
+$$\alpha=\int_0^{\tau_p}\omega_1(t)dt=\int_0^{\tau_p}\gamma B_1^e(t)dt$$
+
+for rect pulse $\alpha=\omega_1\tau_p=\gamma B_1\tau_p$
+
+$\overrightarrow{M}$ after $\alpha_\phi$ pulse could be expressed by
+
+$$\overrightarrow{M}_{rot}(0 _+)=\bold{R} _{z^\prime}(\phi)\bold{R} _{x^\prime}(\alpha)\bold{R} _{z^\prime}(-\phi)\overrightarrow{M} _{rot}(0 _-)$$
+
+$\overrightarrow{M}$ after $\alpha_{(\phi,\theta)}$ pulse could be expressed by
+
+$$\overrightarrow{M}_{rot}(0 _+)=\bold{R} _{z^\prime}(\phi)\bold{R} _{y^\prime}(\hat{\theta})\bold{R} _{x^\prime}(\alpha)\bold{R} _{y^\prime}(-\hat{\theta})\bold{R} _{z^\prime}(-\phi)\overrightarrow{M} _{rot}(0 _-)$$
+
+where $\hat{\theta}=-\frac{\pi}{2}+\theta$
+
+#### Off-Resonance Excitations
+
+$$\begin{aligned}
+  \overrightarrow{B} _{eff}=&\bigg(B_0-\cfrac{\omega _{rf}}{\gamma}\bigg)\overrightarrow{k}^\prime+B _1^e(t)\overrightarrow{i}^\prime\\\\
+  =&\cfrac{\Delta\omega _0}{\gamma}\overrightarrow{k}^\prime+B _1^e(t)\overrightarrow{i}^\prime
+\end{aligned}$$
+
+where $\Delta\omega_0=\omega_0-\omega _{rf}$
+
+the bloch equation converts into
+
+$$\begin{cases}
+  \cfrac{dM _{x^\prime}}{dt}&=&\Delta\omega_0 M _{y^\prime}\\\\
+  \cfrac{dM _{z^\prime}}{dt}&=&-\Delta\omega_0M {x^\prime}+\gamma B _1^e(t)M _{z^\prime}\\\\
+  \cfrac{dM _{y^\prime}}{dt}&=&-\gamma B_1^e(t)M _{y^\prime}
+\end{cases}$$
+
+and it doesn't have a closed-form solution for an arbitrary envelope function $B_1^e(t)$
+
+
