@@ -13,7 +13,7 @@ tags: [MRI]
 
 ***TODO***
 
-## Signal Generation
+## Signal Generation & Detection
 
 ### Nuclear Magnetic Moments
 
@@ -48,7 +48,7 @@ $$
 \end{cases}
 $$
 
-The angular freque3ncy of nuclear precesson, also known as **Larmor Frequency** is $\omega_0=\gamma B_0$
+The angular frequency of nuclear precesson, also known as **Larmor Frequency** is $\omega_0=\gamma B_0$
 
 ### Bulk Magnetization
 
@@ -273,4 +273,86 @@ $$\begin{cases}
 
 and it doesn't have a closed-form solution for an arbitrary envelope function $B_1^e(t)$
 
+#### Frequency Selectivity
+
+General Bloch equation doesn't has a close-form solution, so here introduce an approximation approach based on Fourier
+
+Given the inverse fourier transformation of $B_1^e(t)$
+
+$$\[\mathscr{F}B _1^e\](\omega)=\int _{-\infty}^\infty B _1e^{i\omega t}dt=\mathscr{F}^{-1}\[B _1^e(t)\]$$
+
+Then we obtain the decomposition of $B_t(t)$ into a continum of clockwise rotating microvectors with amplitudes $\[\mathscr{F}B_1^e\](\omega)d\omega$
+
+$$B_1(t)=\cfrac{1}{2}\int _{-infty}^\infty \[\mathscr{F}B _1^e\](\omega)e^{-i(\omega+\omega _{rf})t}d\omega$$
+
+On the other hand, the bulk magnetization vectors could also be decomposed into
+
+$$\overrightarrow{M}=\int _{-\infty}^\infty\overrightarrow{M}(\omega)d\omega$$
+
+Ignoring the relaxation effects, $\[\mathscr{F}B_1^e\](\omega)$, or $|\[\mathscr{F}B_1^e\](\omega)|e^{i\phi(\omega)}$ becomes the excitation field acts on $\overrightarrow{M}(\omega+\omega_{rf})$, where $\phi(\omega)$ denotes the phase shift from the x'-axis
+
+based on the linearity assumption,
+
+$$\alpha(\omega)=\cfrac{|\[\mathscr{F}B _1^e\](\omega)|}{|\[\mathscr{F}B _1^e\](0)|}\alpha(\omega _{rf})$$
+
+for a rectangle pulse $B_1^e(t)=B _1\prod(\frac{t-\tau_p/2}{\tau_p})$,
+
+$$\begin{cases}
+  \cfrac{\alpha(\omega)}{\alpha(0)}=sinc(\frac{1}{2}\omega\tau_p)\\\\
+  \phi(\omega)=\frac{1}{2}\omega\tau_p
+\end{cases}$$
+
+it could excite nuclear spins resonating over a frequency range $|\omega-\omega_{rf}|<2\pi/\tau_p$
+
++ hard/nonselective pulse: short $\tau_p$, excite a wide frequency bandwidth
++ soft/selective pulse: long $tau_p$, excite a thin frequency band
+
+### Free Precession & Relaxation
+
++ **free precession**: the precession of $\overrightarrow{M}$ about $B_0$ field after RF pulse excitation.
++ **longitudinal relaxation**: the recovery of the longitudinal magnetization $M_z$
++ **transverse relaxation**: the recovery of the transverse magnetization $M_{xy}$
+
+The equation below is derived from rotating frame Bloch equation
+
+$$\begin{cases}
+  \cfrac{dM_{z^\prime}}{dt}=-\cfrac{M _{z^\prime}-M _z^0}{T_1}\\\\
+  \cfrac{dM _{x^\prime y^\prime}}{dt}=-\cfrac{M _{x^\prime y^\prime}-M _z^0}{T_2}
+\end{cases}$$
+
+the solution is
+
+$$\begin{cases}
+  M _{x^\prime y^\prime}(t)=M _{x^\prime y^\prime}(0 _+)e^{-t/T_2}\\\\
+  M _{z^\prime}(t)=M _{z}^0(1-e^{-t/T_1})+M _{z^\prime}(0 _+)e^{-t/T_1}\\\\
+\end{cases}$$
+
+decay of both longitudinal and transverse magnetization after RF pulse are exponential
+
+$M_{z^\prime}$ remains 63% of equilibrium state after $T_1$, while $M_{x^\prime y^\prime}$ remains 37% after $T_2$
+
+$$\begin{cases}
+  M _{z^\prime}(T_1)=0.63 M _{z}^0\\\\
+  M _{x^\prime y^\prime}(T_2)=0.37 M _{x^\prime y^\prime}(0 _+)
+\end{cases}$$
+
+The signal collected from receiver coil $V(t)$
+
+$$V(t)=-\cfrac{\partial\Phi(t)}{\partial t}=-\cfrac{\partial}{\partial t}\int _{object}\overrightarrow{B} _r(r)\cdot\overrightarrow{M}(r,t)dr$$
+
+where $\overrightarrow{B}_r$ is the laboratory frame magnetic field at location $r$
+
+considering $M_z(r,t)$ is slowly vcarying compare to $M_x$ and $M_y$
+
+$$V(t)=-\int_{object}\bigg[B _{r,x}(r)\cfrac{\partial M_x(r,t)}{\partial t+B _{r,y}(r)\cfrac{\partial M_y(r,t)}{\partial t}}\bigg]dr$$
+
+the function could be rewrite into
+
+$$V(t)=-\int_{object}\omega(r)|B _{r,xy}(r)||M _{xy}(r,0)|e^{-t/T_2}\sin [-\omega(r)t+\phi_e(r)-\phi_r(r)]dr$$
+
+The amplitude of the signal could be obtained with **Phase sensitive detection (PSD) / signal demodulation** 
+
+The **quadrature detection** collected is
+
+$$S(t)=\omega_0e^{i\pi/2}\int _{object}B _{r,xy}^* (r)M _{xy}(r,0)e^{-i\gamma\int _0^t\Delta B(r\tau)d\tau}$$
 
