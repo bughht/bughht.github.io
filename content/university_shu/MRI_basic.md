@@ -356,3 +356,79 @@ The **quadrature detection** collected is
 
 $$S(t)=\omega_0e^{i\pi/2}\int _{object}B _{r,xy}^* (r)M _{xy}(r,0)e^{-i\gamma\int _0^t\Delta B(r\tau)d\tau}$$
 
+or simplify into
+
+$$S(t)=\int_{object} M _{xy}(r,0)e^{-i\Delta\omega(r)t}dt$$
+
+## Signal Characteristics
+
+Signal collected could be written as
+
+$$S(t)=\int_{object} M _{xy}(r,0 _+)e^{-t/T _2(r)}e^{-i\omega(r)t}$$
+
+where $\Delta\omega$ is replaced by $\omega$
+
+Giving a **sspin spectral density** function $\rho(\omega)=\cfrac{dM(\omega)}{\omega}$
+
+The equation could be rewritten into
+
+$$S(t)=\int_{-\infty}^\infty \rho(\omega)e^{-t/T _2(\omega)}e^{-i\omega t}d\omega$$
+
+omitting $T_2$ relaxation and replace $\rho$ with $\hat{\rho}=\frac{\rho}{2\pi}$, then we introduce
+
+$$S(t)=\cfrac{1}{2\pi}\int _{-\infty}^\infty \hat{\rho}(\omega)e^{-i\omega t}d\omega$$
+
+And for a spin system with $N$ isochromats at frequencies $\omega_n$
+
+$$\rho(\omega)=\sum _{n=1}^N M _{z,n}^0\delta(\omega-\omega_n)$$
+
+where $M_{z,n}^0$ is the equilibrium bulk magnetization of the $n$th isochromat.
+
+for a Cauchy-Lorentzian distribution inhomogeneous field
+
+$$\rho(\omega)=M_z^0\cfrac{(\gamma\Delta B_0)^2}{(\gamma\Delta B_0)^2+(\omega-\omega_0)^2}$$
+
+### FID: Free Induction Decays
+
+$$S(t)=\sin \alpha\int_{-\infty}^\infty \rho(\omega)e^{-t/T _2(\omega)}e^{-i\omega t}$$
+
+where $\alpha$ is the flip angle for $\alpha$ pulse and $\rho(\omega)$ is the spin spectral density determining the characteristics of an FID signal.
+
+Two basic parmeters of FID signal:
+
++ **amplitude**: the amplitude of the FID signal $A_f=\sin\alpha\int _{-infty}^\infty \rho(\omega)d\omega=M_z^0\sin\alpha$ for a spin system with a single spectral component resonating.
++ **decay rate**: closely related to the underlying spectral distribution
+
+For the field of Lorentzian distribution, FID becomes
+
+$$\begin{aligned}
+  S(t) =&\sin\alpha\int _{-\infty}^\infty M _z^0\cfrac{(\gamma\Delta B _0)^2}{(\gamma\Delta B _0)^2+(\omega-\omega _0)^2}e^{-t/T _2}e^{-i\omega t}d\omega\\\\
+  = &\pi M _z^0\gamma\Delta B _0\sin\alpha e^{-\gamma\Delta B _0 t}e^{-t/T _2}e^{-i\omega _0 t}\\\\
+  = &\pi M _z^0\gamma\Delta B _0\sin\alpha e^{-t/T _2^\*} e^{-i\omega _0 t}\\\\
+\end{aligned}$$
+
+where $\cfrac{1}{T_2^*}=\cfrac{1}{T_2}+\gamma\Delta B_0$
+
+Even though the definition of $T_2^\*$ is widely used, it's valid only restrictively for Cauchy-Lorentzian distribution spectral density functions. For other types of spectral density functions, envelope function of FID signal won't be exponential function, $T_2^\*$ should be an approximation of exponential.
+
+For FID signals with more than one spectral component, the absorbation-mode spectrum is the summation of Lorentzian lines.
+
+### RF Echoes
+
+Distinguish **echo** from *FID*: *two-sideness*
+
++ side 1: from refocusing phase of a transverse magnetization
++ side 2: from the dephasing period
+
++ **RF Echoes**
++ **Gradient Echoes**
+
+#### two-pulse echo
+
+excitation scheme:
+
+$$\alpha_1-\tau-\alpha_2$$
+
+generate **spin echo (SE)**
+
+for 
