@@ -431,4 +431,4 @@ $$\alpha_1-\tau-\alpha_2$$
 
 generate **spin echo (SE)**
 
-for 
+for example, we start with $90\degree-\tau-180\degree$ where $90\degree$ is applied along the x-axis while $180\degree$ is applied along the y-axis.

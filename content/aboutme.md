@@ -14,32 +14,40 @@ tags: [aboutme]
 
 ## Education
 
-+ **Shanghai Unviersity**  *Sep. 2019 - On Going*
++ **Shanghai Unviersity**  *Sep. 2019 - Jun. 2023*
   + School of Communication and Information Engineering, Biomedical Engineering
   + GPA: 3.79, College: 8/457 (1.8%), Class:1/31 (3.2%)
 + **Concordia University**  *Jun. 2022 - Aug. 2022*
   + I-SIP Lab
   + Research Internship
-  + Fully funded by CSC and MITACS
-+ **ShanghaiTech University**  *Dec. 2022 - On Going*
+  + Fully funded by MITACS
++ **ShanghaiTech University**  *Dec. 2022 - Jun. 2023*
   + School of Biomedical Engineering
   + Visiting Student
++ **ShanghaiTech University**  *Sep. 2023 - On Going*
+  + School of Biomedical Engineering
+  + Graduate Student (Master Degree)
 
 ## Technical Skills
 
 + **Programming:** Python, C/C++, MATLAB, Julia
-+ **Developer Tools:** VS Code, Vim, Unity, QT, MDK
-+ **Machine Learning Algorithm:** basic numerical optimization, knn, svm, decision tree, random forest, ...
++ **Developer Tools:** VS Code, VS, Vim, Unity, QT, MDK
 + **Embedded Engineering:** STM32, ESP32, Raspberry Pi, Arduino, ROS1/2
 + **3D Model Design:** AutoCAD, Fusion360
++ **MRI Pulse Sequence Design:** United Imaging Adept
+
 
 ## Research Interest
 
-+ Brain Machine Interface
++ Accelerated MRI Pulse Sequence Design 
++ K space Subsampling
++ MRI Reconstruction
+
+<!-- + Brain Machine Interface
 + Medical Image Processing
 + VR/AR Applications
 + Application of AI
-+ Wearable Device Development
++ Wearable Device Development -->
 
 <!-- ## Relevant CourseWork
 
@@ -52,9 +60,27 @@ tags: [aboutme]
 | 4.0 - 95  | Numerical Optimization in Julia |
 | 4.0 - A   | Education of Engineering        |
 | 4.0 - 97  | Analog Circuit Design           |
-| 4.0 - 90  | Academic English Writing        | --> |
+| 4.0 - 90  | Academic English Writing        | -->
 
-## Honors
+## Publications
+
++ **Bullet: An Acceleration Method for Cartesian Partial Echo Acquisition**
+  + **Haotian Hong**, Yuyang Ren, Wenjian Liu, Zijian Zhou, Haikun Qi, Peng Hu
+  + Accepted by 2024 46th Annual International Conference of the IEEE Engineering in Medicine and Biology Society(EMBC), 2024.
+
++ **MRI Acceleration with Frequency Encoding Subsampling using Double Lobe Gradient(DOGE) Readout Waveform**
+  + **Haotian Hong**, Wenjian Liu, Yuyang Ren, Wenlei Shang, Wenchao Yang, Tianhao Jiang, Zhuocheng Xie, Jiayu Zhu, Haikun Qi and Peng Hu
+  + Accepted by 2024 ISMRM Annual Meeting & Exhibition. ISMRM, 2024.
+
++ **Medical endoscopic image classification based on IN-RESCA-SVM+**
+  + Zepei Cao, Kaixin Lu, and **Haotian Hong**
+  + Accepted by 2022 7th International Conference on Intelligent Computing and Signal Processing (ICSP). IEEE, 2022.
+
++ **Effect of laser acupuncture combined with electrical stimulation on recovery from exercise fatigue in mice**
+  + Yudan Xia, Zehai Hou, **Haotian Hong**, Na Chen, Taihao Li, Heng Zhang, Shupeng Liu
+  + Accepted by Journal of Innovative Optical Health Sciences.
+
+## Honors (during undergraduate)
 
 | Award Type                 | Competiton                                              |          Time |
 | -------------------------- | ------------------------------------------------------- | ------------: |
@@ -82,19 +108,10 @@ tags: [aboutme]
 | **Scholarship of Overseas Exchange**      | *Scholarship of Shanghai University*   |        **2021** |
 | **Scholarship of Public Spirit**          | *Scholarship of Shanghai University*   |        **2021** |
 | **Huawei Smart Base Scholarsihp**         | *Scholarship of SCIE*                  |        **2022** |
-| **Mitacs Scholarship**                    | *Scholarship of CSC and MITACS*        |        **2022** |
+| **Mitacs Scholarship**                    | *Scholarship of MITACS*        |        **2022** |
 
-## Publications
 
-+ **Medical endoscopic image classification based on IN-RESCA-SVM+**
-  + Zepei Cao, Kaixin Lu, and **Haotian Hong**
-  + Accepted by 2022 7th International Conference on Intelligent Computing and Signal Processing (ICSP). IEEE, 2022.
-
-+ **Effect of laser acupuncture combined with electrical stimulation on recovery from exercise fatigue in mice**
-  + Yudan Xia, Zehai Hou, **Haotian Hong**, Na Chen, Taihao Li, Heng Zhang, Shupeng Liu
-  + Accepted by Journal of Innovative Optical Health Sciences, ready to publish
-
-## Research & Project Experiences
+## Project Experiences (during undergraduate)
 
 ### [Taichi-Q](https://github.com/bughht/Taichi-Q)
 
@@ -141,7 +158,7 @@ Navigation system for Shanghai University based on Open Street Map data and Dijk
 
 ![Nav](/aboutme_proj/nav.png)
 
-### [Spectral Distortion Analyzer Device](https://github.com/bughht/GCJY)
+<!-- ### [Spectral Distortion Analyzer Device](https://github.com/bughht/GCJY)
 
 An STM32 based embedded system that shows the spectrum of the signal input and its spectral distortion on the LCD.
 
@@ -163,7 +180,7 @@ A system that generates bidirectional pulse wave by using H-bridge and ESP32 for
 
 A system using Speech Recognition and BOW model that controls keyboard actions and mouse movement just by voice.
 
-![auto](/aboutme_proj/auto.png)
+![auto](/aboutme_proj/auto.png) -->
 
 ### [3D Data Visualization Software](https://github.com/bughht/3D-Data-Visualizer)
 
@@ -171,7 +188,7 @@ A Qt-based Software for 3D data visualization, including mesh, point cloud and v
 
 ![3d](/aboutme_proj/3d.jpeg)
 
-### Head-mounted Night Vision Face Detection System
+<!-- ### Head-mounted Night Vision Face Detection System
 
 A Night Vision System applying YOLOv5 and image enhancement to Augmented reality.
 
@@ -181,4 +198,4 @@ A Night Vision System applying YOLOv5 and image enhancement to Augmented reality
 
 Designing two models to predicted the migration of Scottish herring and mackerel to provide some suggestions to the small enterprises living on the fishing industry according to the simulatio
 
-![3d](/aboutme_proj/math.png)
+![3d](/aboutme_proj/math.png) -->
