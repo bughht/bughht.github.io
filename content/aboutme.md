@@ -19,29 +19,34 @@ tags: [aboutme]
   + GPA: 3.79, College: 8/457 (1.8%), Class:1/31 (3.2%)
 + **Concordia University**  *Jun. 2022 - Aug. 2022*
   + I-SIP Lab
-  + Research Internship
-  + Fully funded by MITACS
+  + Visiting Student
 + **ShanghaiTech University**  *Dec. 2022 - Jun. 2023*
   + School of Biomedical Engineering
   + Visiting Student
 + **ShanghaiTech University**  *Sep. 2023 - On Going*
   + School of Biomedical Engineering
-  + Graduate Student (Master Degree)
+  + Master's Student
++ **Athinoula A. Martinos Center for Biomedical Imaging** *Nov. 2025 - On Going*
+  + Visiting Student
+ 
+## Work Experience
+
++ **Teaching Assistant** of *Magnetic Resonance Imaging Practice, 2024 Fall*
 
 ## Technical Skills
 
 + **Programming:** Python, C/C++, MATLAB, Julia
-+ **Developer Tools:** VS Code, VS, Vim, Unity, QT, MDK
++ **Developer Tools:** VSCode, VS, Vim, Unity, QT, MDK
 + **Embedded Engineering:** STM32, ESP32, Raspberry Pi, Arduino, ROS1/2
 + **3D Model Design:** AutoCAD, Fusion360
-+ **MRI Pulse Sequence Design:** United Imaging Adept
++ **MRI Pulse Sequence Design:** United Imaging Adept, Pulseq
 
 
 ## Research Interest
 
-+ Accelerated MRI Pulse Sequence Design 
-+ K space Subsampling
++ MRI Novel Pulse Sequence Design 
 + MRI Reconstruction
++ MRI signal modeling and artifact removal (bSSFP banding artifacts)
 
 <!-- + Brain Machine Interface
 + Medical Image Processing
@@ -64,21 +69,69 @@ tags: [aboutme]
 
 ## Publications
 
-+ **Bullet: An Acceleration Method for Cartesian Partial Echo Acquisition**
-  + **Haotian Hong**, Yuyang Ren, Wenjian Liu, Zijian Zhou, Haikun Qi, Peng Hu
-  + Accepted by 2024 46th Annual International Conference of the IEEE Engineering in Medicine and Biology Society(EMBC), 2024.
++ **From Ellipse to Projection Matrix: Perspective Geometry for Quantitative bSSFP Modeling**
+  + **Haotian Hong**, Yiyun Dong, Michael Hoff, Zijian Zhou, Peng Hu
+  + *Submitting to ISMRM Annual Meeting & Exhibition. ISMRM, 2026*.
 
-+ **MRI Acceleration with Frequency Encoding Subsampling using Double Lobe Gradient(DOGE) Readout Waveform**
-  + **Haotian Hong**, Wenjian Liu, Yuyang Ren, Wenlei Shang, Wenchao Yang, Tianhao Jiang, Zhuocheng Xie, Jiayu Zhu, Haikun Qi and Peng Hu
-  + Accepted by 2024 ISMRM Annual Meeting & Exhibition. ISMRM, 2024.
++ **Graphite-Silicone Composite Neck Shim Pad for Enhanced B0 Homogeneity and Fat Suppression in Ultra-High-Field MRI**
+  + Yihan Yang, **Haotian Hong**, Ziyu Liu, Weijun Zhang, Peng Hu, Zhihua Ren
+  + *Submitting to ISMRM Annual Meeting & Exhibition. ISMRM, 2026*.
 
-+ **Medical endoscopic image classification based on IN-RESCA-SVM+**
++ **Quantitative Pulmonary Regional Ventilation and Perfusion Imaging with Self-gated Non-Contrast Acquisition**
+  + tianyi wu, Wenchao Yang, Zijian Zhou, Tianhao Jiang, Zhiyi Chen, **Haotian Hong**, Wenjian Liu, Yongming Dai, Peng Hu
+  + *Submitting to ISMRM Annual Meeting & Exhibition. ISMRM, 2026*.
+
++ **Spectral optimization of rosette k-space trajectories for improved fat suppression**
+  + Xin Bai, **Haotian Hong**, Yuyang Ren, Wenlei Shang, Zijian Zhou, Peng Hu.
+  + *Submitting to ISMRM Annual Meeting & Exhibition. ISMRM, 2026*.
+
++ **Multi-Echo SSFP: A Method for Synthetic bSSFP MRI Contrast without Banding Artifacts at High Field**
+  + **Haotian Hong**, Michael Hoff, Wenchao Yang, Yiyun Dong, Zijian Zhou, Peng Hu.
+  + ISMRM Workshop on Data Sampling & Image Reconstruction, Sedona, AZ, 2026.
+  + *Submitting to Magnetic Resonance in Medicine*
+
++ [**Cardiac MR Gating Using a Non-contact MR-compatible Doppler Radar System at 3T: Initial Results on Healthy Subjects.**](https://cds.ismrm.org/protected/25MProceedings/PDFfiles/3296_9OtiR9QX0.html)
+  + Tong Wu, **Haotian Hong**, Mingjuan Qin, Zhengyu Cai, Shunli Han, Yiran Li, Xinyuan Xia, Lingzhi Hu, Peng Hu, and Zhihua Ren
+  + **Second Prize** in ISMRM Engineering Study Group Trainee Abstract Competition.
+  + ISMRM Annual Meeting & Exhibition. ISMRM, 2025.
+  + *Submitting to Nature Communications*
+ 
++ [**Bullet: An Acceleration Method for Cartesian Partial Echo Acquisition.**](https://cds.ismrm.org/protected/25MProceedings/PDFfiles/1836_3zT3lZPdM.html)
+  + Haotian Hong**, Yuyang Ren, Wenjian Liu, Zijian Zhou, and Peng Hu
+  + ISMRM Annual Meeting & Exhibition. ISMRM, 2025.
+
++ [**Ellipsoidal Cartesian K-space Sampling with Variable Readout Duration for 3D MRI Acceleration.**](https://cds.ismrm.org/protected/25MProceedings/PDFfiles/3351_AZfcgCRaK.html)
+  + **Haotian Hong**, Zijian Zhou, and Peng Hu.
+  + ISMRM Annual Meeting & Exhibition. ISMRM, 2025.
+ 
++ [**Unsupervised phase unwrapping for aortic 4D flow MRI using deep image prior**](https://cds.ismrm.org/protected/25MProceedings/PDFfiles/4277_2zRJNkQlL.html)
+  + Yuyang Ren, **Haotian Hong**, Zijian Zhou, Peng Hu.
+  + ISMRM Annual Meeting & Exhibition. ISMRM, 2025.
+ 
++ [**Simultaneous Myocardial T1, T2, T1$\rho$ and Fat Fraction Mapping with Hybrid Dual-Echo Cartesian Acquisition and Dictionary Matching.**](https://cds.ismrm.org/protected/25MProceedings/PDFfiles/0781_3FJxS2QaQ.html)
+  + Zhenfeng Lyu, Hongzhang Huang, **Haotian Hong**, Junpu Hu, Liwei Hu, Yumin Zhong, Peng Hu, and Haikun Qi.
+  + ISMRM Annual Meeting & Exhibition. ISMRM, 2025.
+ 
++ [**Fully self-gated dual-venc 5D flow MRI for simultaneous imaging of the cardiovascular and portal venous systems.**](https://cds.ismrm.org/protected/25MProceedings/PDFfiles/1890_Ca1yyvRBh.html)
+  + Yuyang Ren, Wen Ye, Wenchao Yang, Wenjian Liu, **Haotian Hong**, Junpu Hu, Jiayu Zhu, Zijian Zhou, Haikun Qi, Fei Shan, and Peng Hu.
+  + ISMRM Annual Meeting & Exhibition. ISMRM, 2025.
+
++ [**MRI Acceleration with Frequency Encoding Subsampling using Double Lobe Gradient (DOGE) Readout Waveform**](https://cds.ismrm.org/protected/24MProceedings/PDFfiles/3259_7lcBDQQZH.html)
+  + **Haotian Hong**, Wenjian Liu, Yuyang Ren, Wenlei Shang, Wenchao Yang, Tianhao Jiang, Zhuocheng Xie, Jiayu Zhu, Haikun Qi, and Peng Hu
+  + ISMRM Annual Meeting & Exhibition. ISMRM, 2024.
+
++ [**Medical endoscopic image classification based on IN-RESCA-SVM+**](https://ieeexplore.ieee.org/abstract/document/9778535)
   + Zepei Cao, Kaixin Lu, and **Haotian Hong**
-  + Accepted by 2022 7th International Conference on Intelligent Computing and Signal Processing (ICSP). IEEE, 2022.
+  + 2022 7th International Conference on Intelligent Computing and Signal Processing (ICSP). IEEE, 2022.
 
-+ **Effect of laser acupuncture combined with electrical stimulation on recovery from exercise fatigue in mice**
++ [**Effect of laser acupuncture combined with electrical stimulation on recovery from exercise fatigue in mice**](https://www.worldscientific.com/doi/abs/10.1142/S1793545823500013)
   + Yudan Xia, Zehai Hou, **Haotian Hong**, Na Chen, Taihao Li, Heng Zhang, Shupeng Liu
-  + Accepted by Journal of Innovative Optical Health Sciences.
+  + Journal of Innovative Optical Health Sciences 16.04 (2023): 2350001.
+
+## Patents
+
++ **Haotian Hong**, Peng Hu, Wenjian Liu, Yuyang Ren, Wenlei Shang, Wenchao Yang. "Method, system and medium for Magnetic Resonance Imaging Subsampling and Reconstruction by adjusting Frequency Encoding Gradient Waveforms." 202311778606.3.
++ **Haotian Hong**, Peng Hu, Yuyang Ren, Wenjian Liu, Tianhao Jiang, Zhuocheng Xie. Magnetic Resonance Imaging acceleration method, device, medium, program product, and endpoint based on Ellipsoidal Cartesian K-space Sampling." 202410881433.6
 
 ## Honors (during undergraduate)
 
@@ -108,10 +161,10 @@ tags: [aboutme]
 | **Scholarship of Overseas Exchange**      | *Scholarship of Shanghai University*   |        **2021** |
 | **Scholarship of Public Spirit**          | *Scholarship of Shanghai University*   |        **2021** |
 | **Huawei Smart Base Scholarsihp**         | *Scholarship of SCIE*                  |        **2022** |
-| **Mitacs Scholarship**                    | *Scholarship of MITACS*        |        **2022** |
+| **Mitacs Scholarship**                    | *Scholarship of MITACS*                |        **2022** |
 
 
-## Project Experiences (during undergraduate)
+## Project Experiences (Undergraduate)
 
 ### [Taichi-Q](https://github.com/bughht/Taichi-Q)
 
