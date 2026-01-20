@@ -149,7 +149,7 @@ theme = "FixIt"
     # FixIt 0.2.16 | 更改 作者的社交信息设置
   [params.social]
     GitHub = "bughht"
-    Linkedin = "https://www.linkedin.com/in/haotian-hong-608a4525a/"
+    Linkedin = "haotian-hong-608a4525a"
     Twitter = ""
     Instagram = ""
     Facebook = ""
