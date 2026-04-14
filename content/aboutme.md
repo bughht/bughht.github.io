@@ -14,7 +14,7 @@ tags: [aboutme]
 
 ## Education
 
-+ **Shanghai Unviersity**  *Sep. 2019 - Jun. 2023*
++ **Shanghai University**  *Sep. 2019 - Jun. 2023*
   + School of Communication and Information Engineering, Biomedical Engineering
   + GPA: 3.79, College: 8/457 (1.8%), Class:1/31 (3.2%)
 + **Concordia University**  *Jun. 2022 - Aug. 2022*
@@ -27,7 +27,7 @@ tags: [aboutme]
   + School of Biomedical Engineering
   + Master's Student
 + **Athinoula A. Martinos Center for Biomedical Imaging** *Nov. 2025 - On Going*
-  + Visiting Student
+  + Research Scholar
  
 ## Work Experience
 
