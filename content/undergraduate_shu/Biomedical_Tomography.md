@@ -3,7 +3,7 @@ title: "医学成像"
 date: 2021-03-06T15:09:46+08:00
 draft: false
 author: Bughht 
-categories: [University]
+categories: [Undergraduate]
 tags: [BME]
 ---
 # 医学成像

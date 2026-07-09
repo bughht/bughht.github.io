@@ -10,8 +10,6 @@ tags: [aboutme]
 
 ![doge](/img/Doge_small.jpg)
 
-![Me](/img/me_small.jpg)
-
 ## Education
 
 + **Shanghai University**  *Sep. 2019 - Jun. 2023*
@@ -29,17 +27,21 @@ tags: [aboutme]
 + **Athinoula A. Martinos Center for Biomedical Imaging** *Nov. 2025 - On Going*
   + Research Scholar
  
-## Work Experience
+## Professional Service
 
 + **Teaching Assistant** of *Magnetic Resonance Imaging Practice, 2024 Fall*
++ **Reviewer** for *ISMRM* (International Society for Magnetic Resonance in Medicine) and *JMRI* (Journal of Magnetic Resonance Imaging)
++ **Moderator** for ISMRM Sunrise Course Session: [*Laying the Foundation of Cardiovascular MRI: Post-Processing*](https://echo.ismrm.org/program/ISMRM2026/at-a-glance/session/136), Cape Town, 2026 ISMRM-ISMRT Annual Meeting
 
 ## Technical Skills
 
++ **MR Sequence Development:** United Imaging Adept, Pulseq
++ **MR Image Reconstruction:** BART, SigPy, Gadgetron
++ **MR Signal Modeling**: Bloch Simulation, Concomitant Field Simulation, bSSFP Signal Modeling
 + **Programming:** Python, C/C++, MATLAB, Julia
 + **Developer Tools:** VSCode, VS, Vim, Unity, QT, MDK
-+ **Embedded Engineering:** STM32, ESP32, Raspberry Pi, Arduino, ROS1/2
 + **3D Model Design:** AutoCAD, Fusion360
-+ **MRI Pulse Sequence Design:** United Imaging Adept, Pulseq
+<!-- + **Embedded Engineering:** STM32, ESP32, Raspberry Pi, Arduino, ROS1/2 -->
 
 
 ## Research Interest
@@ -47,6 +49,27 @@ tags: [aboutme]
 + MRI Novel Pulse Sequence Design 
 + MRI Reconstruction
 + MRI signal modeling and artifact removal (bSSFP banding artifacts)
+
+## Awards
+
++ **Magna Cum Laude Merit Award** (top 15%), 2026 ISMRM — [Abstract 531-01-003](https://echo.ismrm.org/abstracts/view/d55949ee-9205-4599-aa1a-1ff30e5075da), *ISMRM Annual Meeting & Exhibition*, Cape Town, May 2026.
++ **Magna Cum Laude Merit Award** (top 15%), 2026 ISMRM — [Abstract 605-02-005](https://echo.ismrm.org/abstracts/view/cfaea660-8f3e-463f-bc59-d98e0d707525), *ISMRM Annual Meeting & Exhibition*, Cape Town, May 2026.
++ **Second Place Award**, ISMRM MR Engineering Study Group Trainee Poster Awards — *ISMRM Annual Meeting & Exhibition*, Honolulu, HI, May 2025.
+
+## Talks
+
++ [**Multi-Echo SSFP: A Method for Synthetic bSSFP MRI Contrast Without Banding Artifacts at High Field**](https://echo.ismrm.org/abstracts/view/cfaea660-8f3e-463f-bc59-d98e0d707525) — Oral Presentation, ISMRM Annual Meeting & Exhibition, Cape Town, 2026. (Abstract 605-02-005)
++ [**From Ellipse to Projection Matrix: Perspective Geometry for Quantitative bSSFP Modeling**](https://echo.ismrm.org/abstracts/view/d55949ee-9205-4599-aa1a-1ff30e5075da) — Flash Presentation, ISMRM Annual Meeting & Exhibition, Cape Town, 2026. (Abstract 531-01-003)
++ [**Multi-Echo SSFP: A Method for Synthetic bSSFP MRI Contrast without Banding Artifacts at High Field**](https://echo.ismrm.org/abstracts/view/7dcd14d0-5134-4dac-99eb-05a125b86bd7) — Oral Presentation, ISMRM Workshop on Data Sampling & Image Reconstruction, Sedona, AZ, 2026.
++ [**Cardiac MR Gating Using a Non-contact MR-compatible Doppler Radar System at 3T**](https://mp.weixin.qq.com/s/8QbuUHJsOG_QTkaA7IeBtg) — ISMRM Engineering Study Group Trainee Abstract Competition, **Second Prize**, Honolulu, HI, 2025.
+
+## Technical Projects
+
++ [**ACDC Shim Waveform Optimization**](https://github.com/bughht/ACDC_Optim) — A Python toolkit for solving constrained shim-coil-current optimization problems in MRI. Implements four solvers (exact QP + FISTA variants) for static and time-varying $B_0$ shimming with amplifier SIRF modeling, developed during internship at the Martinos Center. [[Notes]](/intern_mgh/acdc_optim/)
+
++ [**Concomitant Field Simulation**](https://github.com/bughht/concomitant_sim) — A backend-agnostic Python package (NumPy / CuPy / PyTorch) for GPU-accelerated simulation of phase accumulation caused by concomitant fields (Maxwell Terms) in MRI, with auto-grad support for differentiable deep learning pipelines. [[Notes]](/intern_mgh/concomitant_sim/)
+
++ [**SeqEyes Online — Pulseq MRI Sequence Viewer**](https://github.com/bughht/seqeyes_plugin) — An interactive Pulseq `.seq` file viewer with GPU-accelerated 3D k-space rendering. Available as a web app, VS Code extension, and MATLAB toolbox. Inspired by SeqEyes. [[Web App]](https://bughht.github.io/seqeyes_plugin/)
 
 <!-- + Brain Machine Interface
 + Medical Image Processing
@@ -67,73 +90,42 @@ tags: [aboutme]
 | 4.0 - 97  | Analog Circuit Design           |
 | 4.0 - 90  | Academic English Writing        | -->
 
-## Publications
+## Journal Publications
 
-+ **From Ellipse to Projection Matrix: Perspective Geometry for Quantitative bSSFP Modeling**
-  + **Haotian Hong**, Yiyun Dong, Michael Hoff, Zijian Zhou, Peng Hu
-  + *Submitting to ISMRM Annual Meeting & Exhibition. ISMRM, 2026*.
++ [**Multi-Echo SSFP: A Method for Synthetic bSSFP MRI Contrast Without Banding Artifacts at High Field**](https://doi.org/10.1002/mrm.70472)
+  + **Haotian Hong**, Michael N. Hoff, Wenchao Yang, Yiyun Dong, Zijian Zhou, Peng Hu
+  + *Magnetic Resonance in Medicine*, 2026: 1–13. DOI: 10.1002/mrm.70472.
 
-+ **Graphite-Silicone Composite Neck Shim Pad for Enhanced B0 Homogeneity and Fat Suppression in Ultra-High-Field MRI**
-  + Yihan Yang, **Haotian Hong**, Ziyu Liu, Weijun Zhang, Peng Hu, Zhihua Ren
-  + *Submitting to ISMRM Annual Meeting & Exhibition. ISMRM, 2026*.
-
-+ **Quantitative Pulmonary Regional Ventilation and Perfusion Imaging with Self-gated Non-Contrast Acquisition**
-  + tianyi wu, Wenchao Yang, Zijian Zhou, Tianhao Jiang, Zhiyi Chen, **Haotian Hong**, Wenjian Liu, Yongming Dai, Peng Hu
-  + *Submitting to ISMRM Annual Meeting & Exhibition. ISMRM, 2026*.
-
-+ **Spectral optimization of rosette k-space trajectories for improved fat suppression**
-  + Xin Bai, **Haotian Hong**, Yuyang Ren, Wenlei Shang, Zijian Zhou, Peng Hu.
-  + *Submitting to ISMRM Annual Meeting & Exhibition. ISMRM, 2026*.
-
-+ **Multi-Echo SSFP: A Method for Synthetic bSSFP MRI Contrast without Banding Artifacts at High Field**
-  + **Haotian Hong**, Michael Hoff, Wenchao Yang, Yiyun Dong, Zijian Zhou, Peng Hu.
-  + ISMRM Workshop on Data Sampling & Image Reconstruction, Sedona, AZ, 2026.
-  + *Submitting to Magnetic Resonance in Medicine*
-
-+ [**Cardiac MR Gating Using a Non-contact MR-compatible Doppler Radar System at 3T: Initial Results on Healthy Subjects.**](https://cds.ismrm.org/protected/25MProceedings/PDFfiles/3296_9OtiR9QX0.html)
-  + Tong Wu, **Haotian Hong**, Mingjuan Qin, Zhengyu Cai, Shunli Han, Yiran Li, Xinyuan Xia, Lingzhi Hu, Peng Hu, and Zhihua Ren
-  + **Second Prize** in ISMRM Engineering Study Group Trainee Abstract Competition.
-  + ISMRM Annual Meeting & Exhibition. ISMRM, 2025.
-  + *Submitting to Nature Communications*
- 
-+ [**Bullet: An Acceleration Method for Cartesian Partial Echo Acquisition.**](https://cds.ismrm.org/protected/25MProceedings/PDFfiles/1836_3zT3lZPdM.html)
-  + Haotian Hong**, Yuyang Ren, Wenjian Liu, Zijian Zhou, and Peng Hu
-  + ISMRM Annual Meeting & Exhibition. ISMRM, 2025.
-
-+ [**Ellipsoidal Cartesian K-space Sampling with Variable Readout Duration for 3D MRI Acceleration.**](https://cds.ismrm.org/protected/25MProceedings/PDFfiles/3351_AZfcgCRaK.html)
-  + **Haotian Hong**, Zijian Zhou, and Peng Hu.
-  + ISMRM Annual Meeting & Exhibition. ISMRM, 2025.
- 
-+ [**Unsupervised phase unwrapping for aortic 4D flow MRI using deep image prior**](https://cds.ismrm.org/protected/25MProceedings/PDFfiles/4277_2zRJNkQlL.html)
-  + Yuyang Ren, **Haotian Hong**, Zijian Zhou, Peng Hu.
-  + ISMRM Annual Meeting & Exhibition. ISMRM, 2025.
- 
-+ [**Simultaneous Myocardial T1, T2, T1$\rho$ and Fat Fraction Mapping with Hybrid Dual-Echo Cartesian Acquisition and Dictionary Matching.**](https://cds.ismrm.org/protected/25MProceedings/PDFfiles/0781_3FJxS2QaQ.html)
-  + Zhenfeng Lyu, Hongzhang Huang, **Haotian Hong**, Junpu Hu, Liwei Hu, Yumin Zhong, Peng Hu, and Haikun Qi.
-  + ISMRM Annual Meeting & Exhibition. ISMRM, 2025.
- 
-+ [**Fully self-gated dual-venc 5D flow MRI for simultaneous imaging of the cardiovascular and portal venous systems.**](https://cds.ismrm.org/protected/25MProceedings/PDFfiles/1890_Ca1yyvRBh.html)
-  + Yuyang Ren, Wen Ye, Wenchao Yang, Wenjian Liu, **Haotian Hong**, Junpu Hu, Jiayu Zhu, Zijian Zhou, Haikun Qi, Fei Shan, and Peng Hu.
-  + ISMRM Annual Meeting & Exhibition. ISMRM, 2025.
-
-+ [**MRI Acceleration with Frequency Encoding Subsampling using Double Lobe Gradient (DOGE) Readout Waveform**](https://cds.ismrm.org/protected/24MProceedings/PDFfiles/3259_7lcBDQQZH.html)
-  + **Haotian Hong**, Wenjian Liu, Yuyang Ren, Wenlei Shang, Wenchao Yang, Tianhao Jiang, Zhuocheng Xie, Jiayu Zhu, Haikun Qi, and Peng Hu
-  + ISMRM Annual Meeting & Exhibition. ISMRM, 2024.
-
-+ [**Medical endoscopic image classification based on IN-RESCA-SVM+**](https://ieeexplore.ieee.org/abstract/document/9778535)
-  + Zepei Cao, Kaixin Lu, and **Haotian Hong**
-  + 2022 7th International Conference on Intelligent Computing and Signal Processing (ICSP). IEEE, 2022.
++ [**Simultaneous Myocardial T1, T2, T1ρ and Fat Fraction Mapping with Hybrid Dual-Echo Cartesian Acquisition and Dictionary Matching**](https://doi.org/10.1016/j.jocmr.2026.102721)
+  + Zhenfeng Lyu, Hongzhang Huang, **Haotian Hong**, Junpu Hu, Yali Wu, Xianling Qian, Liwei Hu, Yumin Zhong, Mengsu Zeng, Peng Hu, Haikun Qi
+  + *Journal of Cardiovascular Magnetic Resonance*, 2026 Mar 27; 28(1): 102721. DOI: 10.1016/j.jocmr.2026.102721.
 
 + [**Effect of laser acupuncture combined with electrical stimulation on recovery from exercise fatigue in mice**](https://www.worldscientific.com/doi/abs/10.1142/S1793545823500013)
   + Yudan Xia, Zehai Hou, **Haotian Hong**, Na Chen, Taihao Li, Heng Zhang, Shupeng Liu
-  + Journal of Innovative Optical Health Sciences 16.04 (2023): 2350001.
+  + *Journal of Innovative Optical Health Sciences*, 16(4), 2023: 2350001.
+
+## Conference Abstracts
+
++ [**Haotian Hong**, Michael Hoff, Wenchao Yang, Yiyun Dong, Zijian Zhou, Peng Hu. "Multi-Echo SSFP: A Method for Synthetic bSSFP MRI Contrast without Banding Artifacts at High Field."](https://echo.ismrm.org/abstracts/view/cfaea660-8f3e-463f-bc59-d98e0d707525) ISMRM Annual Meeting & Exhibition. ISMRM, 2026. (Abstract 605-02-005)
++ [**Haotian Hong**, Yiyun Dong, Michael Hoff, Zijian Zhou, Peng Hu. "From Ellipse to Projection Matrix: Perspective Geometry for Quantitative bSSFP Modeling."](https://echo.ismrm.org/abstracts/view/d55949ee-9205-4599-aa1a-1ff30e5075da) ISMRM Annual Meeting & Exhibition. ISMRM, 2026. (Abstract 531-01-003)
++ [Yihan Yang, **Haotian Hong**, Ziyu Liu, Weijun Zhang, Peng Hu, Zhihua Ren. "Graphite-Silicone Composite Neck Shim Pad for Enhanced B0 Homogeneity and Fat Suppression in Ultra-High-Field MRI."](https://echo.ismrm.org/abstracts/view/c76dce74-bf23-4920-9952-6341bba4c131) ISMRM Annual Meeting & Exhibition. ISMRM, 2026. (Abstract 470-04-098)
++ [Xin Bai, **Haotian Hong**, Yuyang Ren, Wenlei Shang, Zijian Zhou, Peng Hu. "Spectral optimization of rosette k-space trajectories for improved fat suppression."](https://echo.ismrm.org/abstracts/view/4328cca6-ee87-4712-87f2-d17c5c4ce5ed) ISMRM Annual Meeting & Exhibition. ISMRM, 2026. (Abstract 470-04-097)
++ [Xin Bai, **Haotian Hong**, Zijian Zhou, Peng Hu. "Optimizing Rosette Trajectories For Intrinsic Fat Suppression Using a Signal-Equation Model."](https://cmsworkshops.com/EMBC2026/view_paper.php?PaperNum=4627&SessionID=1132) 48th Annual International Conference of the IEEE Engineering in Medicine and Biology Society. EMBC, 2026.
++ [Tong Wu, **Haotian Hong**, Mingjuan Qin, Zhengyu Cai, Shunli Han, Yiran Li, Xinyuan Xia, Lingzhi Hu, Peng Hu, Zhihua Ren. "Cardiac MR Gating Using a Non-contact MR-compatible Doppler Radar System at 3T: Initial Results on Healthy Subjects."](https://cds.ismrm.org/protected/25MProceedings/PDFfiles/3296_9OtiR9QX0.html) Second Prize, ISMRM Engineering Study Group Trainee Abstract Competition. ISMRM Annual Meeting & Exhibition. ISMRM, 2025.
++ [**Haotian Hong**, Yuyang Ren, Wenjian Liu, Zijian Zhou, Peng Hu. "Bullet: An Acceleration Method for Cartesian Partial Echo Acquisition."](https://cds.ismrm.org/protected/25MProceedings/PDFfiles/1836_3zT3lZPdM.html) ISMRM Annual Meeting & Exhibition. ISMRM, 2025.
++ [**Haotian Hong**, Zijian Zhou, Peng Hu. "Ellipsoidal Cartesian K-space Sampling with Variable Readout Duration for 3D MRI Acceleration."](https://cds.ismrm.org/protected/25MProceedings/PDFfiles/3351_AZfcgCRaK.html) ISMRM Annual Meeting & Exhibition. ISMRM, 2025.
++ [Yuyang Ren, **Haotian Hong**, Zijian Zhou, Peng Hu. "Unsupervised phase unwrapping for aortic 4D flow MRI using deep image prior."](https://cds.ismrm.org/protected/25MProceedings/PDFfiles/4277_2zRJNkQlL.html) ISMRM Annual Meeting & Exhibition. ISMRM, 2025.
++ [Zhenfeng Lyu, Hongzhang Huang, **Haotian Hong**, Junpu Hu, Liwei Hu, Yumin Zhong, Peng Hu, Haikun Qi. "Simultaneous Myocardial T1, T2, T1$\rho$ and Fat Fraction Mapping with Hybrid Dual-Echo Cartesian Acquisition and Dictionary Matching."](https://cds.ismrm.org/protected/25MProceedings/PDFfiles/0781_3FJxS2QaQ.html) ISMRM Annual Meeting & Exhibition. ISMRM, 2025.
++ [Yuyang Ren, Wen Ye, Wenchao Yang, Wenjian Liu, **Haotian Hong**, Junpu Hu, Jiayu Zhu, Zijian Zhou, Haikun Qi, Fei Shan, Peng Hu. "Fully self-gated dual-venc 5D flow MRI for simultaneous imaging of the cardiovascular and portal venous systems."](https://cds.ismrm.org/protected/25MProceedings/PDFfiles/1890_Ca1yyvRBh.html) ISMRM Annual Meeting & Exhibition. ISMRM, 2025.
++ [**Haotian Hong**, Wenjian Liu, Yuyang Ren, Wenlei Shang, Wenchao Yang, Tianhao Jiang, Zhuocheng Xie, Jiayu Zhu, Haikun Qi, Peng Hu. "MRI Acceleration with Frequency Encoding Subsampling using Double Lobe Gradient (DOGE) Readout Waveform."](https://cds.ismrm.org/protected/24MProceedings/PDFfiles/3259_7lcBDQQZH.html) ISMRM Annual Meeting & Exhibition. ISMRM, 2024.
++ [Zepei Cao, Kaixin Lu, **Haotian Hong**. "Medical endoscopic image classification based on IN-RESCA-SVM+."](https://ieeexplore.ieee.org/abstract/document/9778535) 2022 7th International Conference on Intelligent Computing and Signal Processing (ICSP). IEEE, 2022.
 
 ## Patents
 
 + **Haotian Hong**, Peng Hu, Wenjian Liu, Yuyang Ren, Wenlei Shang, Wenchao Yang. "Method, system and medium for Magnetic Resonance Imaging Subsampling and Reconstruction by adjusting Frequency Encoding Gradient Waveforms." 202311778606.3.
 + **Haotian Hong**, Peng Hu, Yuyang Ren, Wenjian Liu, Tianhao Jiang, Zhuocheng Xie. Magnetic Resonance Imaging acceleration method, device, medium, program product, and endpoint based on Ellipsoidal Cartesian K-space Sampling." 202410881433.6
 
-## Honors (during undergraduate)
+## Honors (Undergraduate)
 
 | Award Type                 | Competiton                                              |          Time |
 | -------------------------- | ------------------------------------------------------- | ------------: |

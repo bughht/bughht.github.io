@@ -3,14 +3,14 @@ title: "r-PPG Review"
 date: 2021-12-06T15:09:46+08:00
 draft: false
 author: Bughht 
-categories: [University]
+categories: [Undergraduate]
 tags: [BME]
 ---
 # Algorithm available for r-PPG (based on referenced articles)
 
 ## Skin Reflection model [<sup>1</sup>](#refer-anchor-1)
 
-![rPPG_model](/university_shu/img/rPPG_model.png)
+![rPPG_model](/undergraduate_shu/img/rPPG_model.png)
 
 The reflection of each skin pixel in a recorded image sequence can be defined as a time-varying function in RGB channels
 $$\textbf{C}_k(t)=I(t)\cdot(\textbf{v}_s(t)+\textbf{v}_d(t))+\textbf{v}_n(t)$$

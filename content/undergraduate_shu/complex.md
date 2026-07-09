@@ -3,7 +3,7 @@ title: "Complex Function"
 date: 2020-10-01T15:09:46+08:00
 draft: false
 author: Bughht
-categories: [University]
+categories: [Undergraduate]
 tags: [Complex]
 ---
 

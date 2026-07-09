@@ -3,7 +3,7 @@ title: "MRI_Basic"
 date: 2022-12-08T15:09:46+08:00
 draft: false
 author: Bughht 
-categories: [University]
+categories: [Undergraduate]
 tags: [MRI]
 ---
 

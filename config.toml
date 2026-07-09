@@ -3,7 +3,7 @@ baseURL = "https://bughht.github.io/"
 # 设置默认的语言 ["en", "zh-cn", "fr", "pl", ...]
 defaultContentLanguage = "zh-cn"
 # 网站语言, 仅在这里 CN 大写 ["en", "zh-CN", "fr", "pl", ...]
-languageCode = "zh-CN"
+locale = "zh-CN"
 # 是否包括中日韩文字
 hasCJKLanguage = true
 
@@ -11,6 +11,11 @@ hasCJKLanguage = true
 theme = "FixIt"
 
 [params]
+  # 作者信息
+  [params.author]
+    name = "Haotian Hong"
+    link = "https://bughht.github.io"
+    email = "hhong6@mgh.harvard.edu"
   # FixIt 主题版本
   version = "0.2.X"
   # 网站描述
@@ -375,11 +380,11 @@ theme = "FixIt"
     pre = ""
     # 你可以在名称（允许 HTML 格式）之后添加其他信息，例如图标
     post = ""
-    name = "本科-SHU"
-    url = "/university_shu/"
+    name = "Undergraduate: SHU"
+    url = "/undergraduate_shu/"
     # 当你将鼠标悬停在此菜单链接上时，将显示的标题
     title = "Universiyt Bachelor SHU"
-    weight = 1
+    weight = 4
     # 向菜单项添加用户定义的内容
     [menu.main.params]
       # 添加 CSS 类到菜单项
@@ -391,16 +396,42 @@ theme = "FixIt"
       # 设置菜单项类型，可选值：["mobile", "desktop"]
       type = ""
   [[menu.main]]
+    identifier = "master"
+    pre = ""
+    post = ""
+    name = "Master: ShanghaiTech"
+    url = "/master_shanghaitech/"
+    title = "Master's at ShanghaiTech"
+    weight = 3
+    [menu.main.params]
+      class = ""
+      draft = false
+      icon = "fa-solid fa-graduation-cap"
+      type = ""
+  [[menu.main]]
+    identifier = "mgh"
+    pre = ""
+    post = ""
+    name = "MGH / Martinos"
+    url = "/intern_mgh/"
+    title = "Internship at MGH Martinos Center"
+    weight = 2
+    [menu.main.params]
+      class = ""
+      draft = false
+      icon = "fa-solid fa-hospital"
+      type = ""
+  [[menu.main]]
     identifier = "highschool"
     # 你可以在名称（允许 HTML 格式）之前添加其他信息，例如图标
     pre = ""
     # 你可以在名称（允许 HTML 格式）之后添加其他信息，例如图标
     post = ""
-    name = "高中-SES"
+    name = "High School: SES"
     url = "/high_school_ses/"
     # 当你将鼠标悬停在此菜单链接上时，将显示的标题
     title = "High School SES"
-    weight = 2
+    weight = 5
     # 向菜单项添加用户定义的内容
     [menu.main.params]
       # 添加 CSS 类到菜单项
@@ -418,7 +449,7 @@ theme = "FixIt"
     name = "分类"
     url = "/categories/"
     title = ""
-    weight = 3
+    weight = 6
     [menu.main.params]
       icon = "fa-solid fa-th"
   [[menu.main]]
@@ -428,7 +459,7 @@ theme = "FixIt"
     name = "标签"
     url = "/tags/"
     title = ""
-    weight = 4
+    weight = 7
     [menu.main.params]
       icon = "fa-solid fa-tags"
   [[menu.main]]

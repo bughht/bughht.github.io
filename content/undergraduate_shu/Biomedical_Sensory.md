@@ -3,7 +3,7 @@ title: "医学传感"
 date: 2021-12-06T15:09:46+08:00
 draft: false
 author: Bughht 
-categories: [University]
+categories: [Undergraduate]
 tags: [BME]
 ---
 
