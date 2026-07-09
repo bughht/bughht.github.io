@@ -46,9 +46,10 @@ tags: [aboutme]
 
 ## Research Interest
 
-+ MRI Novel Pulse Sequence Design 
-+ MRI Reconstruction
-+ MRI signal modeling and artifact removal (bSSFP banding artifacts)
++ Novel Pulse Sequence Design 
++ MR signal modeling and artifact removal
++ MR hardware development and optimization (Dynamic B0 field control)
++ MR Reconstruction
 
 ## Awards
 
