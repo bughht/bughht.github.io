@@ -1,0 +1,10 @@
+// ==============================
+// Custom style
+// 自定义样式
+// ==============================
+
+// Fix header nav: clip right-side (less important) menu items first on narrow screens.
+// Remove float:right so menu starts at left edge of nav and overflows to the right.
+#header-desktop .header-wrapper .menu {
+  float: none;
+}
