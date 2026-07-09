@@ -42,10 +42,7 @@ The **AC/DC shim array** provides 31 independent $B_0$ control channels that can
 be modulated at the waveform level ($\sim$ kHz update rate). By solving the
 constrained optimization (see [ACDC Optim notes](/intern_mgh/acdc_optim/)):
 
-$$
-\min_{\mathbf{X}} \ \frac{1}{2}\|\mathbf{C}\mathbf{X}\mathbf{W} - \mathbf{B}\|_F^2
-\quad \text{s.t.} \ |X_{t,c}| \le I_{\max},\ \sum_c |X_{t,c}| \le I_{\Sigma,\max}
-$$
+$\min_{\mathbf{X}} \ \frac{1}{2}\|\mathbf{C}\mathbf{X}\mathbf{W} - \mathbf{B}\|_F^2 \quad \text{s.t.} \ |X_{t,c}| \le I_{\max},\ \sum_c |X_{t,c}| \le I_{\Sigma,\max}$
 
 we obtain shim current waveforms $\mathbf{X}(t)$ that prospectively cancel the
 eddy-current-induced $B_0$ offset **at every time point** during the EPI readout.
