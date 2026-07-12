@@ -105,7 +105,7 @@ tags: [aboutme]
   + Yudan Xia, Zehai Hou, **Haotian Hong**, Na Chen, Taihao Li, Heng Zhang, Shupeng Liu
   + *Journal of Innovative Optical Health Sciences*, 16(4), 2023: 2350001.
 
-## Conference Abstracts
+## Conference Papers and Abstracts
 
 + [**Haotian Hong**, Michael Hoff, Wenchao Yang, Yiyun Dong, Zijian Zhou, Peng Hu. "Multi-Echo SSFP: A Method for Synthetic bSSFP MRI Contrast without Banding Artifacts at High Field."](https://echo.ismrm.org/abstracts/view/cfaea660-8f3e-463f-bc59-d98e0d707525) ISMRM Annual Meeting & Exhibition. ISMRM, 2026. (Abstract 605-02-005)
 + [**Haotian Hong**, Yiyun Dong, Michael Hoff, Zijian Zhou, Peng Hu. "From Ellipse to Projection Matrix: Perspective Geometry for Quantitative bSSFP Modeling."](https://echo.ismrm.org/abstracts/view/d55949ee-9205-4599-aa1a-1ff30e5075da) ISMRM Annual Meeting & Exhibition. ISMRM, 2026. (Abstract 531-01-003)
