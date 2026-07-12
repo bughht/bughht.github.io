@@ -66,11 +66,11 @@ tags: [aboutme]
 
 ## Technical Projects
 
++ [**SeqEyes Online — Pulseq MRI Sequence Viewer**](https://github.com/bughht/seqeyes_plugin) — An interactive Pulseq `.seq` file viewer with GPU-accelerated 3D k-space rendering. Available as a web app, VS Code extension, and MATLAB toolbox. Inspired by SeqEyes. [[Web App]](https://bughht.github.io/seqeyes_plugin/)
+
 + [**ACDC Shim Waveform Optimization**](https://github.com/bughht/ACDC_Optim) — A Python toolkit for solving constrained shim-coil-current optimization problems in MRI. Implements four solvers (exact QP + FISTA variants) for static and time-varying $B_0$ shimming with amplifier SIRF modeling, developed during internship at the Martinos Center. [[Notes]](/intern_mgh/acdc_optim/)
 
 + [**Concomitant Field Simulation**](https://github.com/bughht/concomitant_sim) — A backend-agnostic Python package (NumPy / CuPy / PyTorch) for GPU-accelerated simulation of phase accumulation caused by concomitant fields (Maxwell Terms) in MRI, with auto-grad support for differentiable deep learning pipelines. [[Notes]](/intern_mgh/concomitant_sim/)
-
-+ [**SeqEyes Online — Pulseq MRI Sequence Viewer**](https://github.com/bughht/seqeyes_plugin) — An interactive Pulseq `.seq` file viewer with GPU-accelerated 3D k-space rendering. Available as a web app, VS Code extension, and MATLAB toolbox. Inspired by SeqEyes. [[Web App]](https://bughht.github.io/seqeyes_plugin/)
 
 <!-- + Brain Machine Interface
 + Medical Image Processing
