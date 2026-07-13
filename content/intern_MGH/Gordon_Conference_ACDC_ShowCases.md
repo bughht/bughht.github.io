@@ -7,12 +7,7 @@ categories: [MGH, Conference]
 tags: [ACDC, B0, Shim, EPI, Eddy-Current, Concomitant, Gordon]
 ---
 
-# ACDC Dynamic B0 Field Control: Applications & Showcase
-
-> **Scan the QR code below** to visit this page and access resources, code, and references.
-
-<!-- TODO: Insert QR code image here -->
-<!-- ![QR Code](/img/qr_gordon_acdc.png) -->
+# ACDC Dynamic B0 Field Control: Additional Showcase
 
 **Related Repositories:**
 - [bughht/ACDC_Optim](https://github.com/bughht/ACDC_Optim) — Shim waveform optimization solvers
@@ -26,9 +21,8 @@ tags: [ACDC, B0, Shim, EPI, Eddy-Current, Concomitant, Gordon]
 
 In single-shot EPI, rapidly switching gradient waveforms induce **short-term eddy currents**
 (decay $\tau \sim 1$–$10$ ms) in the cryostat and surrounding conductors. These eddy
-currents create a time-varying $B_0$ offset during the EPI readout train that
-manifests as **Nyquist (edge) ghosts** — shifted half-FOV replicas of the image
-superimposed on the primary image.
+currents create a time-varying gradient bias during the EPI readout train that
+manifests as **Edge ghosts** superimposed on the primary image.
 
 Traditional pre-emphasis approaches compensate eddy currents by modifying the
 gradient input waveform, but:
@@ -63,15 +57,14 @@ eddy-current-induced $B_0$ offset **at every time point** during the EPI readout
 
 ---
 
-## 2. Concomitant Field Correction: Diffusion bSSFP Artifacts
+## 2. Concomitant Field Correction: Diffusion Artifacts
 
 ### The Problem
 
 Diffusion bSSFP (balanced steady-state free precession) sequences
 combine diffusion weighting with the high SNR efficiency of bSSFP. However:
 
-- The bSSFP steady state is exquisitely sensitive to **off-resonance**
-  ($\Delta f$), producing characteristic **banding artifacts**
+- The bSSFP steady state is exquisitely sensitive to **off-resonance** phase cumulation during the scan, producing characteristic **banding artifacts**
 - Diffusion gradients introduce **concomitant fields** that shift the local resonance frequency, resulting in second-order spatially varying $\Delta f$ across the imaging volume. Unlike the linear terms, concomitant fields cannot be refocused by the bipolar gradient waveform, introducing a **cumulative second-order phase bias** that varies with diffusion direction.
 
 ![Diffusion bSSFP Pulse Sequence](/img/MGH/image_diffbSSFP_pulseq.png)
