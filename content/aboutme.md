@@ -94,6 +94,9 @@ tags: [aboutme]
 | 4.0 - 90  | Academic English Writing        | -->
 
 ## Journal Publications
++ [**A Flexible Graphite–Silicone Pad for Improved Fat Suppression in Cervical Spine MRI at 5T via Passive B0 Shimming**](https://doi.org/10.1002/mrm.70535)
+  + Yihan Yang, Ziyu Liu, **Haotian Hong**, Weijun Zhang, Zhihua Ren
+  + *Magnetic Resonance in Medicine*, 2026: 1–13. DOI: 10.1002/mrm.70535.
 
 + [**Multi-Echo SSFP: A Method for Synthetic bSSFP MRI Contrast Without Banding Artifacts at High Field**](https://doi.org/10.1002/mrm.70472)
   + **Haotian Hong**, Michael N. Hoff, Wenchao Yang, Yiyun Dong, Zijian Zhou, Peng Hu
